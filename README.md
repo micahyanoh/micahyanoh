@@ -1,4 +1,6 @@
 - 👋 Hi, I’m @micahyanoh
+- Software Engineer
+- *Android (Kivy), Desktop (Tkinter,Kivy)
 - 👀 I’m interested in python,UI development and Databases
 - 🌱 I’m currently learning game development and flutter with dart
 - 💞️ I’m looking to collaborate on any project on python or  dart
