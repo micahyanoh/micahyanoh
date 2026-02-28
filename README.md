@@ -176,7 +176,7 @@ $ neofetch
 
 </div>
 
-<!-- 3-COLUMN LANGUAGE CARDS (stolen from the best) -->
+<!-- 3-COLUMN LANGUAGE CARDS -->
 <div align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=micahyanoh&theme=github_dark&utcOffset=3" width="32%" />
@@ -191,7 +191,6 @@ $ neofetch
 
 <div align="center">
 
-<!-- TERMINAL WINDOW CHROME -->
 <table>
 <tr>
 <td>
@@ -206,11 +205,10 @@ $ neofetch
 </tr>
 </table>
 
-[![carbon](https://carbon.now.sh/svg?bg=rgba%280%2C0%2C0%2C0%29&t=one-dark&wt=none&l=python&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=20px&ph=20px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%23%21%2Fusr%2Fbin%2Fenv%20python3%0A%23%20micah.py%20%E2%80%94%20v27.0-lts%20%E2%80%94%20stable%0A%0Aclass%20AlfonceMicah%3A%0A%20%20%20%20%22%22%22%0A%20%20%20%20Applications%20Developer.%20HCI%20Researcher.%20Cat%20servant.%0A%20%20%20%20WARNING%3A%20Currently%20operating%20in%20solitude%20mode.%20Feature%2C%20not%20a%20bug.%0A%20%20%20%20%22%22%22%0A%20%20%20%20def%20__init__(self)%3A%0A%20%20%20%20%20%20%20%20self.name%20%20%20%20%20%20%20%20%20%20%3D%20%22Alfonce%20Micah%20Yano%22%0A%20%20%20%20%20%20%20%20self.role%20%20%20%20%20%20%20%20%20%20%3D%20%22Applications%20Developer%22%0A%20%20%20%20%20%20%20%20self.location%20%20%20%20%20%20%3D%20%22Nairobi%2C%20Kenya%20%F0%9F%87%B0%F0%9F%87%AA%22%0A%20%20%20%20%20%20%20%20self.fuel%20%20%20%20%20%20%20%20%20%20%3D%20%5B%22%E2%98%95%20coffee%22%2C%20%22%F0%9F%A5%94%20potatoes%22%2C%20%22%F0%9F%8D%9D%20pasta%22%5D%0A%20%20%20%20%20%20%20%20self.companions%20%20%20%20%3D%20%5B%22%F0%9F%90%B1%20cats%22%2C%20%22more%20cats%22%2C%20%22even%20more%20cats%22%5D%0A%20%20%20%20%20%20%20%20self.relationship%20%20%3D%20None%20%20%23%20compiles.%20ships.%20sleeps.%20fine.%0A%20%20%20%20%20%20%20%20self.humans%20%20%20%20%20%20%20%20%3D%20%5B%5D%20%20%20%20%23%20see%20%2Fvar%2Flog%2Fsocial.log%0A%0A%20%20%20%20def%20hobbies(self)%20-%3E%20dict%3A%0A%20%20%20%20%20%20%20%20return%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%93%B7%20photography%22%20%20%3A%20%22Capturing%20moments%20words%20fail%20to%20compress%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%A5%BE%20hiking%22%20%20%20%20%20%20%20%3A%20%22Solo.%20Always.%20The%20mountain%20asks%20no%20questions.%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%93%9A%20literature%22%20%20%20%3A%20%22Books%20nobody%20else%20in%20the%20room%20has%20heard%20of%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%8E%9E%EF%B8%8F%20docs%22%20%20%20%20%20%20%20%3A%20%22The%20only%20content%20worth%20the%20bandwidth%22%2C%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20def%20relationship_status(self)%3A%0A%20%20%20%20%20%20%20%20%23%20TODO%3A%20implement%0A%20%20%20%20%20%20%20%20%23%20FIXME%3A%20has%20been%20TODO%20since%20v1.0%0A%20%20%20%20%20%20%20%20%23%20NOTE%3A%20PR%20welcome.%20Must%20pass%20code%20review.%0A%20%20%20%20%20%20%20%20raise%20NotImplementedError(%22Feature%20in%20backlog.%20ETA%3A%20unknown.%22))](https://carbon.now.sh/?bg=rgba%280%2C0%2C0%2C0%29&t=one-dark&wt=none&l=python&ds=false&wc=true&wa=false&pv=20px&ph=20px&ln=false&fm=Hack&fs=13px&code=%23%21%2Fusr%2Fbin%2Fenv%20python3%0A%23%20micah.py%20%E2%80%94%20v27.0-lts)
+[![carbon](https://carbon.now.sh/svg?bg=rgba%280%2C0%2C0%2C0%29&t=one-dark&wt=none&l=python&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=20px&ph=20px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%23%21%2Fusr%2Fbin%2Fenv%20python3%0A%23%20micah.py%20%E2%80%94%20v27.0-lts%20%E2%80%94%20stable%0A%0Aclass%20AlfonceMicah%3A%0A%20%20%20%20%22%22%22%0A%20%20%20%20Applications%20Developer.%20HCI%20Researcher.%20Cat%20servant.%0A%20%20%20%20WARNING%3A%20Currently%20operating%20in%20solitude%20mode.%20Feature%2C%20not%20a%20bug.%0A%20%20%20%20%22%22%22%0A%20%20%20%20def%20__init__(self)%3A%0A%20%20%20%20%20%20%20%20self.name%20%20%20%20%20%20%20%20%20%20%3D%20%22Alfonce%20Micah%20Yano%22%0A%20%20%20%20%20%20%20%20self.role%20%20%20%20%20%20%20%20%20%20%3D%20%22Applications%20Developer%22%0A%20%20%20%20%20%20%20%20self.location%20%20%20%20%20%20%3D%20%22Nairobi%2C%20Kenya%20%F0%9F%87%B0%F0%9F%87%AA%22%0A%20%20%20%20%20%20%20%20self.fuel%20%20%20%20%20%20%20%20%20%20%3D%20%5B%22%E2%98%95%20coffee%22%2C%20%22%F0%9F%A5%94%20potatoes%22%2C%20%22%F0%9F%8D%9D%20pasta%22%5D%0A%20%20%20%20%20%20%20%20self.companions%20%20%20%20%3D%20%5B%22%F0%9F%90%B1%20cats%22%2C%20%22more%20cats%22%2C%20%22even%20more%20cats%22%5D%0A%20%20%20%20%20%20%20%20self.relationship%20%20%3D%20None%20%20%23%20compiles.%20ships.%20sleeps.%20fine.%0A%20%20%20%20%20%20%20%20self.humans%20%20%20%20%20%20%20%20%3D%20%5B%5D%20%20%20%20%23%20see%20%2Fvar%2Flog%2Fsocial.log%0A%0A%20%20%20%20def%20hobbies(self)%20-%3E%20dict%3A%0A%20%20%20%20%20%20%20%20return%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%93%B7%20photography%22%20%20%3A%20%22Capturing%20moments%20words%20fail%20to%20compress%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%A5%BE%20hiking%22%20%20%20%20%20%20%20%3A%20%22Solo.%20Always.%20The%20mountain%20asks%20no%20questions.%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%93%9A%20literature%22%20%20%20%3A%20%22Books%20nobody%20else%20in%20the%20room%20has%20heard%20of%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%8E%9E%EF%B8%8F%20docs%22%20%20%20%20%20%20%20%3A%20%22The%20only%20content%20worth%20the%20bandwidth%22%2C%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20def%20relationship_status(self)%3A%0A%20%20%20%20%20%20%20%20%23%20TODO%3A%20implement%0A%20%20%20%20%20%20%20%20%23%20FIXME%3A%20has%20been%20TODO%20since%20v1.0%0A%20%20%20%20%20%20%20%20%23%20NOTE%3A%20PR%20welcome.%20Must%20pass%20code%20review.%0A%20%20%20%20%20%20%20%20raise%20NotImplementedError(%22Feature%20in%20backlog.%20ETA%3A%20unknown.%22)](https://carbon.now.sh/?bg=rgba%280%2C0%2C0%2C0%29&t=one-dark&wt=none&l=python&ds=false&wc=true&wa=false&pv=20px&ph=20px&ln=false&fm=Hack&fs=13px&code=%23%21%2Fusr%2Fbin%2Fenv%20python3%0A%23%20micah.py%20%E2%80%94%20v27.0-lts)
 
 </div>
 
-<!-- ANIMATED TERMINAL OUTPUT BELOW THE CODE -->
 <div align="center">
 
 ```bash
@@ -393,7 +391,6 @@ rule_1 = "Have you tried turning it off and eating pasta?"
 
 > *Because snakes and terminals belong together.*
 
-<!-- Using platane's public output as fallback — always renders -->
 <picture>
   <source media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake-dark.svg" />
@@ -403,7 +400,7 @@ rule_1 = "Have you tried turning it off and eating pasta?"
 </picture>
 
 <!--
-  SETUP: Add .github/workflows/snake.yml to your repo to generate YOUR snake:
+  SETUP: Add .github/workflows/snake.yml to your repo:
 
   name: Generate Snake
   on:
@@ -509,6 +506,11 @@ exit code: 0
 
 <div align="center">
 
+<!-- ANIMATED CONNECTION STATUS -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=900&color=39FF14&background=0D111700&center=true&vWidth=680&lines=connecting+to+alfonce.micah+%28nairobi.ke%29...;%5B++OK++%5D+LinkedIn+handshake+complete;%5B++OK++%5D+GitHub+repos+mounted+%28read+only%3F+nah%2C+star+them%29;%5B++OK++%5D+Instagram+%40stolen_pen_ke+online;%5B+NOTE+%5D+DMs+open.+Please+don%27t+be+weird." alt="connection status" />
+
+<br/><br/>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's%20Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfonce-micah-yano-5042b81a7)
 [![GitHub](https://img.shields.io/badge/GitHub-micahyanoh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/micahyanoh)
 [![Instagram](https://img.shields.io/badge/Instagram-@stolen__pen__ke-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/stolen_pen_ke)
@@ -532,29 +534,55 @@ Port 69   : CLOSED <- relationship.service still not installed.
 
 </div>
 
-
 ---
+
+<!-- ============================================================
+     FOOTER — FULL ANIMATED SHUTDOWN SEQUENCE
+     ============================================================ -->
 
 <div align="center">
 
-<!-- FOOTER WAVE -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a3d0a,100:0d1117&height=140&section=footer&animation=fadeIn&fontColor=39ff14"/>
+<!-- FOOTER WAVE IN -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:061406,75:0a3d0a,100:0d1117&height=120&section=footer&animation=fadeIn"/>
 
-```bash
-$ shutdown -h now "Built with ☕ + 🥔 + 🍝 + 🐱 + 📷 + 🥾 energy"
+<!-- LINE 1: SHUTDOWN COMMAND TYPED OUT -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=17&pause=700&color=39FF14&background=0D111700&center=true&vWidth=800&lines=micah%40nairobi%3A~%24+sudo+shutdown+-h+now+%22session+complete%22" alt="shutdown command" />
 
-Broadcast message from micah@nairobi:
-The system is going down for maintenance NOW!
-(Maintenance = solo hike + a good documentary. Restart = more coffee.)
+<br/>
 
-No humans were harmed in the making of this README.
-Cats supervised. Camera was loaded. Trail was hiked alone. As always.
+<!-- LINE 2: SYSTEMD-STYLE SHUTDOWN LOG — scrolling through services -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=650&color=4EAA25&background=0D111700&center=true&vWidth=800&lines=%5B++OK++%5D+Stopping+humans.service+...+skipped+%28was+never+started%29;%5B++OK++%5D+Unmounting+%2Fvar%2Fwork+...+done;%5B++OK++%5D+Saving+%2Fmnt%2Fmoments+%28photography+backlog%29+...+done;%5B++OK++%5D+Packing+trail_boots+for+tomorrow+...+done;%5B++OK++%5D+Queuing+next+documentary+...+done;%5B++OK++%5D+Cats+fed.+Coffee+prepped.+Pasta+on+standby.;%5B+WARN+%5D+relationship.service%3A+still+not+found.+still+fine.;%5B++OK++%5D+Writing+%2Fvar%2Flog%2Flife.log+...+done;System+halted." alt="shutdown log" />
 
-> relationship.service: still not found. contributions welcome.
+<br/><br/>
+
+<!-- DIVIDER -->
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-**`$ alfonce --version`**
-**`Alfonce Micah Yano v27.0-lts (Nairobi Edition) — stable`**
-**`Build: 🐱-powered | Arch: fullstack | License: MIT-cat | Ports: open`**
+<!-- LINE 3: VERSION STRING TYPED -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=3500&color=7FFF00&background=0D111700&center=true&vWidth=750&lines=%24+alfonce+--version;Alfonce+Micah+Yano+v27.0-lts+%28Nairobi+Edition%29+—+stable;Build%3A+%F0%9F%90%B1-powered+%7C+Arch%3A+fullstack+%7C+License%3A+MIT-cat+%7C+Ports%3A+open" alt="version string" />
+
+<br/><br/>
+
+<!-- STATUS PILL BADGES -->
+![Built With](https://img.shields.io/badge/Built%20with-☕+🥔+🍝+🐱-39ff14?style=flat-square&labelColor=0d1117)
+![Maintained By](https://img.shields.io/badge/Maintained%20by-cats-39ff14?style=flat-square&labelColor=0d1117)
+![Humans Harmed](https://img.shields.io/badge/Humans%20harmed-0-39ff14?style=flat-square&labelColor=0d1117)
+![relationship.service](https://img.shields.io/badge/relationship.service-404-ff4444?style=flat-square&labelColor=0d1117)
+![Ports](https://img.shields.io/badge/Ports-open-39ff14?style=flat-square&labelColor=0d1117)
+![Camera](https://img.shields.io/badge/Camera-always%20loaded-31A8FF?style=flat-square&labelColor=0d1117)
+![Trail](https://img.shields.io/badge/Next%20hike-solo-FCC624?style=flat-square&labelColor=0d1117)
+
+<br/>
+
+<!-- LINE 4: EASTER EGG FOR ANYONE WHO SCROLLED THIS FAR -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=12&pause=2500&color=4EAA25&background=0D111700&center=true&vWidth=700&lines=%23+Thanks+for+reading+this+far.+You+have+excellent+taste.;%23+Or+you%27re+very+bored.+Either+way%2C+I+respect+it.;%23+Star+the+repo.+My+cat+is+watching+and+she+will+know.;%23+Also+%E2%80%94+port+443+is+still+open.+Just+putting+that+out+there." alt="easter egg" />
+
+<br/>
+
+<!-- FOOTER WAVE OUT -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a3d0a,80:061406,100:0d1117&height=80&section=footer&animation=fadeIn&reversal=true"/>
 
 </div>
