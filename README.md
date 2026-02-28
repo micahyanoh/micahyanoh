@@ -469,53 +469,54 @@ rule_1 = "Have you tried turning it off and eating pasta?"
 
 ---
 
-## 🐍 Contribution Snake — `watch -n 1 'git log --oneline'`
+---
+
+## 🌊 `git log --graph --oneline --all` — Contribution Wave
 
 <div align="center">
 
-> *Because snakes and terminals belong together.*
+> *320 commits and counting. The grind is real. The coffee is realer.*
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" />
-</picture>
+[![Alfonce's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=micahyanoh&bg_color=0d1117&color=39ff14&line=39ff14&point=ffffff&area_color=0a3d0a&area=true&hide_border=true&custom_title=commit%20history%20%7C%20micahyanoh)](https://github.com/micahyanoh)
 
-<!--
-  SETUP: Add .github/workflows/snake.yml to your repo:
+<br/>
 
-  name: Generate Snake
-  on:
-    schedule: [{cron: "0 */12 * * *"}]
-    workflow_dispatch:
-  jobs:
-    generate:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: Platane/snk/svg-only@v3
-          with:
-            github_user_token: ${{ secrets.GITHUB_TOKEN }}
-            outputs: |
-              dist/snake.svg
-              dist/snake-dark.svg?palette=github-dark
-        - uses: crazy-max/ghaction-github-pages@v3
-          with: {target_branch: output, build_dir: dist}
-          env: {GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
--->
-
-> *The snake moves like my cat at 3am. Chaotic. Purposeful. Unkillable.*
+<!-- ISOMETRIC COMMIT CALENDAR — always renders, no setup needed -->
+[![isometric](https://github-readme-activity-graph.vercel.app/graph?username=micahyanoh&bg_color=0d1117&color=39ff14&line=00ff41&point=39ff14&area=true&hide_border=true&radius=8&custom_title=activity+radar+%7C+micahyanoh)](https://github.com/micahyanoh)
 
 </div>
 
 ---
 
-## 🏆 `sudo pacman -S achievements`
+## 🏆 `cat /proc/micahyanoh/hall_of_fame`
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=micahyanoh&theme=matrix&no-frame=true&margin-w=8&margin-h=8&column=7)](https://github.com/micahyanoh)
+<!-- METRICS — shows real contribution data including streaks, languages, achievements -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=micahyanoh&theme=github_dark" width="100%"/>
+
+<br/>
+
+<table>
+<tr>
+<td align="center">
+<img src="https://media.giphy.com/media/26u4cqiYI30juCOGY/giphy.gif" width="120" alt="winner"/><br/>
+<b>320 Commits</b><br/><sub>Jan 2022 → Now</sub>
+</td>
+<td align="center">
+<img src="https://media.giphy.com/media/l3vRfNA1p0rvhMSvS/giphy.gif" width="120" alt="fire streak"/><br/>
+<b>5-Day Best Streak</b><br/><sub>Jul 4 – Jul 8, 2024</sub>
+</td>
+<td align="center">
+<img src="https://media.giphy.com/media/3oEjHWbXcpeKhTktXi/giphy.gif" width="120" alt="repos"/><br/>
+<b>21 Repos Contributed</b><br/><sub>and still building</sub>
+</td>
+<td align="center">
+<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="120" alt="github"/><br/>
+<b>4 Years on GitHub</b><br/><sub>since 2022</sub>
+</td>
+</tr>
+</table>
 
 </div>
 
