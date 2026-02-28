@@ -170,11 +170,9 @@ $ neofetch
 <!-- MAIN STATS + STREAK SIDE BY SIDE -->
 <div align="center">
 
-<a href="https://github.com/micahyanoh">
-  <img height="170em" src="https://readmestats.999857.xyz/api?username=micahyanoh&show_icons=true&theme=merko&border_radius=4&count_private=true&rank_icon=S&hide_border=true&bg_color=0d1117&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&custom_title=micahyanoh%27s%20Github%20Stats" />
-  &nbsp;
-  <img height="170em" src="https://streak-stats.demolab.com/?user=micahyanoh&theme=terminal&hide_border=true&background=0d1117&stroke=39ff14&ring=39ff14&fire=ff6b6b&currStreakLabel=39ff14&sideLabels=39ff14&dates=8b949e&sideNums=ffffff&currStreakNum=ffffff" />
-</a>
+<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=micahyanoh&theme=github_dark" />
+&nbsp;
+<img height="170em" src="https://streak-stats.demolab.com/?user=micahyanoh&theme=terminal&hide_border=true&background=0d1117&stroke=39ff14&ring=39ff14&fire=ff6b6b&currStreakLabel=39ff14&sideLabels=39ff14&dates=8b949e&sideNums=ffffff&currStreakNum=ffffff" />
 
 </div>
 
