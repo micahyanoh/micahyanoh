@@ -98,7 +98,7 @@ More than cold restarts at 2am. Cats have clean code. Cats don't break prod.
 <b>☕ Coffee</b><br/><sub>Morning compiler</sub>
 </td>
 <td align="center" width="33%">
-<img src="https://media.giphy.com/media/elHFHqh0YYa9O/giphy.gif" width="160" alt="potatoes"/><br/>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="160" alt="potatoes"/><br/>
 <b>🥔 Potatoes</b><br/><sub>Debugging fuel</sub>
 </td>
 <td align="center" width="33%">
@@ -290,9 +290,9 @@ class AlfonceMicah:
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/l0HlBO4JMuJELaIZa/giphy.gif" width="220" alt="photography" />
+<img src="https://user-images.githubusercontent.com/74038190/212750996-938b257b-266c-45a7-9af7-655341c0f58b.gif" width="220" alt="photography" />
 &nbsp;&nbsp;
-<img src="https://media.giphy.com/media/ZbFJTBTOilkRnZXMjN/giphy.gif" width="220" alt="camera shutter" />
+<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9f8.gif" width="220" alt="camera shutter" />
 
 <br/><br/>
 
@@ -329,9 +329,9 @@ class AlfonceMicah:
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/xT9IgolXONZX7Sek6Y/giphy.gif" width="220" alt="hiking mountains" />
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="220" alt="hiking mountains" />
 &nbsp;&nbsp;
-<img src="https://media.giphy.com/media/GZEAt6kFGQOt8fJ5se/giphy.gif" width="220" alt="nature solitude" />
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="220" alt="nature solitude" />
 
 <br/><br/>
 
@@ -370,7 +370,7 @@ $ echo $THOUGHTS | sort --unique | grep -v "other_people"
 <b>📖 Literature</b><br/><sub>Dense. Layered. Rewarding.</sub>
 </td>
 <td align="center" width="50%">
-<img src="https://media.giphy.com/media/Ld1LqCaW7vIkhDGEUHi/giphy.gif" width="200" alt="watching documentary"/><br/>
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="200" alt="watching documentary"/><br/>
 <b>🎞️ Documentaries</b><br/><sub>Raw. Real. Uncomfortable.</sub>
 </td>
 </tr>
