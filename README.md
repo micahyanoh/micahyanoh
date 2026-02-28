@@ -57,11 +57,11 @@
 ## 🐱 /etc/cat.conf
 
 <div align="center">
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="180" alt="cat on keyboard" />
+<img src="https://media0.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="180" alt="cat on keyboard" />
 &nbsp;&nbsp;&nbsp;
 <img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" width="180" alt="cat typing" />
 &nbsp;&nbsp;&nbsp;
-<img src="https://media.giphy.com/media/lJNoBCvQYp7nq/giphy.gif" width="180" alt="cat stare" />
+<img src="https://media.giphy.com/media/BzyTuYCmvSORqs1ABM/giphy.gif" width="180" alt="cat stare" />
 </div>
 
 <br/>
@@ -98,11 +98,11 @@ More than cold restarts at 2am. Cats have clean code. Cats don't break prod.
 <b>☕ Coffee</b><br/><sub>Morning compiler</sub>
 </td>
 <td align="center" width="33%">
-<img src="https://media.giphy.com/media/xT9DPJVjlYHwWsZRxm/giphy.gif" width="160" alt="potatoes"/><br/>
+<img src="https://media.giphy.com/media/elHFHqh0YYa9O/giphy.gif" width="160" alt="potatoes"/><br/>
 <b>🥔 Potatoes</b><br/><sub>Debugging fuel</sub>
 </td>
 <td align="center" width="33%">
-<img src="https://media.giphy.com/media/l0MYP6WAFnAqxaAqI/giphy.gif" width="160" alt="pasta"/><br/>
+<img src="https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif" width="160" alt="pasta"/><br/>
 <b>🍝 Pasta</b><br/><sub>Midnight deployment snack</sub>
 </td>
 </tr>
@@ -290,9 +290,9 @@ class AlfonceMicah:
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="220" alt="photography" />
+<img src="https://media.giphy.com/media/l0HlBO4JMuJELaIZa/giphy.gif" width="220" alt="photography" />
 &nbsp;&nbsp;
-<img src="https://media.giphy.com/media/l0HlCHHDqWLRBBOXe/giphy.gif" width="220" alt="camera shutter" />
+<img src="https://media.giphy.com/media/ZbFJTBTOilkRnZXMjN/giphy.gif" width="220" alt="camera shutter" />
 
 <br/><br/>
 
@@ -329,9 +329,9 @@ class AlfonceMicah:
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/3o7TKO7sOONxmAl9Ik/giphy.gif" width="220" alt="hiking mountains" />
+<img src="https://media.giphy.com/media/xT9IgolXONZX7Sek6Y/giphy.gif" width="220" alt="hiking mountains" />
 &nbsp;&nbsp;
-<img src="https://media.giphy.com/media/l0HlRnAWXxn0MhKLK/giphy.gif" width="220" alt="nature solitude" />
+<img src="https://media.giphy.com/media/GZEAt6kFGQOt8fJ5se/giphy.gif" width="220" alt="nature solitude" />
 
 <br/><br/>
 
@@ -370,7 +370,7 @@ $ echo $THOUGHTS | sort --unique | grep -v "other_people"
 <b>📖 Literature</b><br/><sub>Dense. Layered. Rewarding.</sub>
 </td>
 <td align="center" width="50%">
-<img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="200" alt="watching documentary"/><br/>
+<img src="https://media.giphy.com/media/Ld1LqCaW7vIkhDGEUHi/giphy.gif" width="200" alt="watching documentary"/><br/>
 <b>🎞️ Documentaries</b><br/><sub>Raw. Real. Uncomfortable.</sub>
 </td>
 </tr>
