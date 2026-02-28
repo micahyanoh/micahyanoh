@@ -191,39 +191,65 @@ $ neofetch
 
 <div align="center">
 
-<table>
-<tr>
-<td>
-
-```
-╭─────────────────────────────────────────────────────────────────────╮
-│  ●  ●  ●   micah@nairobi: ~/micah.py — python3                      │
-├─────────────────────────────────────────────────────────────────────┤
-```
-
-</td>
-</tr>
-</table>
-
-[![carbon](https://carbon.now.sh/svg?bg=rgba%280%2C0%2C0%2C0%29&t=one-dark&wt=none&l=python&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=20px&ph=20px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%23%21%2Fusr%2Fbin%2Fenv%20python3%0A%23%20micah.py%20%E2%80%94%20v27.0-lts%20%E2%80%94%20stable%0A%0Aclass%20AlfonceMicah%3A%0A%20%20%20%20%22%22%22%0A%20%20%20%20Applications%20Developer.%20HCI%20Researcher.%20Cat%20servant.%0A%20%20%20%20WARNING%3A%20Currently%20operating%20in%20solitude%20mode.%20Feature%2C%20not%20a%20bug.%0A%20%20%20%20%22%22%22%0A%20%20%20%20def%20__init__(self)%3A%0A%20%20%20%20%20%20%20%20self.name%20%20%20%20%20%20%20%20%20%20%3D%20%22Alfonce%20Micah%20Yano%22%0A%20%20%20%20%20%20%20%20self.role%20%20%20%20%20%20%20%20%20%20%3D%20%22Applications%20Developer%22%0A%20%20%20%20%20%20%20%20self.location%20%20%20%20%20%20%3D%20%22Nairobi%2C%20Kenya%20%F0%9F%87%B0%F0%9F%87%AA%22%0A%20%20%20%20%20%20%20%20self.fuel%20%20%20%20%20%20%20%20%20%20%3D%20%5B%22%E2%98%95%20coffee%22%2C%20%22%F0%9F%A5%94%20potatoes%22%2C%20%22%F0%9F%8D%9D%20pasta%22%5D%0A%20%20%20%20%20%20%20%20self.companions%20%20%20%20%3D%20%5B%22%F0%9F%90%B1%20cats%22%2C%20%22more%20cats%22%2C%20%22even%20more%20cats%22%5D%0A%20%20%20%20%20%20%20%20self.relationship%20%20%3D%20None%20%20%23%20compiles.%20ships.%20sleeps.%20fine.%0A%20%20%20%20%20%20%20%20self.humans%20%20%20%20%20%20%20%20%3D%20%5B%5D%20%20%20%20%23%20see%20%2Fvar%2Flog%2Fsocial.log%0A%0A%20%20%20%20def%20hobbies(self)%20-%3E%20dict%3A%0A%20%20%20%20%20%20%20%20return%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%93%B7%20photography%22%20%20%3A%20%22Capturing%20moments%20words%20fail%20to%20compress%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%A5%BE%20hiking%22%20%20%20%20%20%20%20%3A%20%22Solo.%20Always.%20The%20mountain%20asks%20no%20questions.%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%93%9A%20literature%22%20%20%20%3A%20%22Books%20nobody%20else%20in%20the%20room%20has%20heard%20of%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22%F0%9F%8E%9E%EF%B8%8F%20docs%22%20%20%20%20%20%20%20%3A%20%22The%20only%20content%20worth%20the%20bandwidth%22%2C%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20def%20relationship_status(self)%3A%0A%20%20%20%20%20%20%20%20%23%20TODO%3A%20implement%0A%20%20%20%20%20%20%20%20%23%20FIXME%3A%20has%20been%20TODO%20since%20v1.0%0A%20%20%20%20%20%20%20%20%23%20NOTE%3A%20PR%20welcome.%20Must%20pass%20code%20review.%0A%20%20%20%20%20%20%20%20raise%20NotImplementedError(%22Feature%20in%20backlog.%20ETA%3A%20unknown.%22)](https://carbon.now.sh/?bg=rgba%280%2C0%2C0%2C0%29&t=one-dark&wt=none&l=python&ds=false&wc=true&wa=false&pv=20px&ph=20px&ln=false&fm=Hack&fs=13px&code=%23%21%2Fusr%2Fbin%2Fenv%20python3%0A%23%20micah.py%20%E2%80%94%20v27.0-lts)
+<!-- ANIMATED TYPING: file header -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=2000&color=39FF14&background=0D111700&center=true&vWidth=600&lines=micah%40nairobi%3A~%24+python3+micah.py;%23%21%2Fusr%2Fbin%2Fenv+python3+%7C+v27.0-lts+%7C+stable" alt="file header" />
 
 </div>
 
+```python
+#!/usr/bin/env python3
+# micah.py — v27.0-lts — stable
+# ┌─────────────────────────────────────────────────────────┐
+# │  ● ● ●   micah@nairobi: ~/micah.py — python3            │
+# └─────────────────────────────────────────────────────────┘
+
+class AlfonceMicah:
+    """
+    Applications Developer. HCI Researcher. Cat servant.
+    Powered by: coffee, potatoes, pasta (in that order).
+
+    WARNING: Do not attempt to interrupt during pasta consumption.
+    WARNING: Currently operating in solitude mode. Feature, not a bug.
+    """
+
+    def __init__(self):
+        self.name          = "Alfonce Micah Yano"
+        self.role          = "Applications Developer"
+        self.location      = "Nairobi, Kenya 🇰🇪  (Originally: Kisumu)"
+        self.community     = "Google Developer Groups — GDG Kisii"
+        self.fuel          = ["☕ coffee", "🥔 potatoes", "🍝 pasta"]
+        self.companions    = ["🐱 cats", "more cats", "even more cats"]
+        self.relationship  = None  # compiles. ships. sleeps. fine.
+        self.humans        = []    # intentionally empty — see /var/log/social.log
+
+    def research_interests(self) -> list[str]:
+        return [
+            "Health Information Systems",
+            "Human Computer Interaction (HCI)",
+            "Design Science Research",
+            "Usability & Adoptability",
+            "Fullstack Application Development",
+        ]
+
+    def hobbies(self) -> dict:
+        return {
+            "📷 photography"  : "Capturing moments words fail to compress",
+            "🥾 hiking"       : "Solo. Always. The mountain asks no questions.",
+            "📚 literature"   : "Books nobody else in the room has heard of",
+            "🎞️ documentaries": "The only content worth the bandwidth",
+        }
+
+    def relationship_status(self) -> str:
+        # TODO: implement
+        # FIXME: has been TODO since v1.0
+        # NOTE: PR welcome. Must pass code review. No merge conflicts please.
+        raise NotImplementedError("Feature still in backlog. ETA: unknown.")
+```
+
 <div align="center">
 
-```bash
-$ python3 micah.py
-
->> Initialising AlfonceMicah...                          [  OK  ]
->> Loading caffeine drivers...                           [  OK  ]
->> Mounting /mnt/cats...                                 [  OK  ]
->> Checking relationship.service...                      [ FAIL ]
-   NotImplementedError: Feature in backlog. ETA: unknown.
->> Falling back to solitude.service...                   [  OK  ]
->> System ready. Coffee levels nominal.
-
-micah@nairobi:~$ _
-```
+<!-- ANIMATED: execution output -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=900&color=4EAA25&background=0D111700&center=true&vWidth=680&lines=%24+python3+micah.py;%3E%3E+Initialising+AlfonceMicah...+++++++++++++%5B++OK++%5D;%3E%3E+Loading+caffeine+drivers...++++++++++++++%5B++OK++%5D;%3E%3E+Mounting+%2Fmnt%2Fcats...+++++++++++++++++++++%5B++OK++%5D;%3E%3E+Checking+relationship.service...+++++++%5B+FAIL+%5D;+++NotImplementedError%3A+ETA%3A+unknown.;%3E%3E+Falling+back+to+solitude.service...++++%5B++OK++%5D;%3E%3E+System+ready.+Coffee+levels+nominal.;micah%40nairobi%3A~%24+_" alt="execution output" />
 
 </div>
 
