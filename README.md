@@ -56,6 +56,16 @@
 
 ## 🐱 /etc/cat.conf
 
+<div align="center">
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="180" alt="cat on keyboard" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" width="180" alt="cat typing" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://media.giphy.com/media/lJNoBCvQYp7nq/giphy.gif" width="180" alt="cat stare" />
+</div>
+
+<br/>
+
 > *"I was going to write a long bio, but my cat sat on the keyboard.*
 > *This is her README now."*
 > — My cat, probably
@@ -80,6 +90,23 @@ More than cold restarts at 2am. Cats have clean code. Cats don't break prod.
 ## ☕ The Holy Trinity of `/usr/bin/alfonce`
 
 <div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://media.giphy.com/media/3o7TKqnN349PBUtGFO/giphy.gif" width="160" alt="coffee"/><br/>
+<b>☕ Coffee</b><br/><sub>Morning compiler</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://media.giphy.com/media/xT9DPJVjlYHwWsZRxm/giphy.gif" width="160" alt="potatoes"/><br/>
+<b>🥔 Potatoes</b><br/><sub>Debugging fuel</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://media.giphy.com/media/l0MYP6WAFnAqxaAqI/giphy.gif" width="160" alt="pasta"/><br/>
+<b>🍝 Pasta</b><br/><sub>Midnight deployment snack</sub>
+</td>
+</tr>
+</table>
 
 | ☕ Coffee | 🥔 Potatoes | 🍝 Pasta |
 |:---------:|:----------:|:-------:|
@@ -151,6 +178,10 @@ $ neofetch
                            Camera: 📷 always loaded
                            Relationship: [process not found]
 ```
+
+<br/>
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="380" alt="coding" />
 
 </div>
 
@@ -259,6 +290,12 @@ class AlfonceMicah:
 
 <div align="center">
 
+<img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="220" alt="photography" />
+&nbsp;&nbsp;
+<img src="https://media.giphy.com/media/l0HlCHHDqWLRBBOXe/giphy.gif" width="220" alt="camera shutter" />
+
+<br/><br/>
+
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  PHOTOGRAPHER MODE — ACTIVE                                      │
@@ -292,6 +329,12 @@ class AlfonceMicah:
 
 <div align="center">
 
+<img src="https://media.giphy.com/media/3o7TKO7sOONxmAl9Ik/giphy.gif" width="220" alt="hiking mountains" />
+&nbsp;&nbsp;
+<img src="https://media.giphy.com/media/l0HlRnAWXxn0MhKLK/giphy.gif" width="220" alt="nature solitude" />
+
+<br/><br/>
+
 ```bash
 $ ./hike.sh --companion=none --music=none --notifications=off
 
@@ -319,6 +362,21 @@ $ echo $THOUGHTS | sort --unique | grep -v "other_people"
 ## 📚 `cat /mnt/mind/` — Literature & Documentaries
 
 <div align="center">
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="https://media.giphy.com/media/WoWm8YzFQJg5i/giphy.gif" width="200" alt="reading book"/><br/>
+<b>📖 Literature</b><br/><sub>Dense. Layered. Rewarding.</sub>
+</td>
+<td align="center" width="50%">
+<img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="200" alt="watching documentary"/><br/>
+<b>🎞️ Documentaries</b><br/><sub>Raw. Real. Uncomfortable.</sub>
+</td>
+</tr>
+</table>
+
+<br/>
 
 ```
 $ ls -lh /mnt/mind/
