@@ -160,19 +160,30 @@ $ neofetch
 
 > *Stats generated live. Unlike my social life, these actually have uptime.*
 
+<!-- PROFILE SUMMARY BANNER -->
+<div align="center">
+
+[![profile-summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=micahyanoh&theme=github_dark)](https://github.com/micahyanoh)
+
+</div>
+
+<!-- MAIN STATS + STREAK SIDE BY SIDE -->
 <div align="center">
 
 <a href="https://github.com/micahyanoh">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=micahyanoh&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&cache_seconds=3600" />
+  <img height="170em" src="https://readmestats.999857.xyz/api?username=micahyanoh&show_icons=true&theme=merko&border_radius=4&count_private=true&rank_icon=S&hide_border=true&bg_color=0d1117&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&custom_title=micahyanoh%27s%20Github%20Stats" />
   &nbsp;
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=micahyanoh&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=39ff14&text_color=c9d1d9&cache_seconds=3600&langs_count=8" />
+  <img height="170em" src="https://streak-stats.demolab.com/?user=micahyanoh&theme=terminal&hide_border=true&background=0d1117&stroke=39ff14&ring=39ff14&fire=ff6b6b&currStreakLabel=39ff14&sideLabels=39ff14&dates=8b949e&sideNums=ffffff&currStreakNum=ffffff" />
 </a>
 
 </div>
 
+<!-- 3-COLUMN LANGUAGE CARDS (stolen from the best) -->
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=micahyanoh&theme=terminal&hide_border=true&background=0d1117&stroke=39ff14&ring=39ff14&fire=ff6b6b&currStreakLabel=39ff14&sideLabels=39ff14&dates=8b949e&sideNums=ffffff&currStreakNum=ffffff)](https://git.io/streak-stats)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micahyanoh&theme=merko&layout=compact&hide_border=true&bg_color=0d1117&title_color=39ff14&text_color=c9d1d9&langs_count=8&count_private=true&cache_seconds=3600" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=micahyanoh&theme=github_dark&langs_count=8" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=micahyanoh&theme=github_dark&langs_count=8" width="32%" />
 
 </div>
 
@@ -404,14 +415,21 @@ rule_1 = "Have you tried turning it off and eating pasta?"
 
 > *Because snakes and terminals belong together.*
 
+<!-- Using platane's public output as fallback — always renders -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
 <!--
-  To activate the animated snake, add this GitHub Actions workflow:
-  File: .github/workflows/snake.yml
+  SETUP: Add .github/workflows/snake.yml to your repo to generate YOUR snake:
 
   name: Generate Snake
   on:
-    schedule:
-      - cron: "0 */12 * * *"
+    schedule: [{cron: "0 */12 * * *"}]
     workflow_dispatch:
   jobs:
     generate:
@@ -424,22 +442,51 @@ rule_1 = "Have you tried turning it off and eating pasta?"
               dist/snake.svg
               dist/snake-dark.svg?palette=github-dark
         - uses: crazy-max/ghaction-github-pages@v3
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with: {target_branch: output, build_dir: dist}
+          env: {GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
 -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake.svg" />
-</picture>
-
 > *The snake moves like my cat at 3am. Chaotic. Purposeful. Unkillable.*
+
+</div>
+
+---
+
+## 🏆 `sudo pacman -S achievements`
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=micahyanoh&theme=matrix&no-frame=true&margin-w=8&margin-h=8&column=7)](https://github.com/micahyanoh)
+
+</div>
+
+---
+
+## 🔝 `git log --author=micahyanoh --all --oneline | sort -r`
+
+<div align="center">
+
+[![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=micahyanoh&limit=5&theme=dark&combine_all_yearly_contributions=true&bg_color=0d1117&title_color=39ff14&text_color=c9d1d9&border_color=39ff14)](https://github.com/micahyanoh)
+
+</div>
+
+---
+
+## 💬 `fortune | cowsay` — Wisdom from the Terminal
+
+<div align="center">
+
+![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
+
+</div>
+
+---
+
+## 😂 `cat /dev/humor` — Today's Stack Overflow Survival Kit
+
+<div align="center">
+
+![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder&theme=dark&bgColor=%230d1117&textColor=%2339ff14&aColor=%2339ff14&borderColor=%2339ff14)
 
 </div>
 
@@ -507,14 +554,6 @@ Port 69   : CLOSED <- relationship.service still not installed.
 
 </div>
 
----
-
-<!-- TROPHIES -->
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=micahyanoh&theme=matrix&no-frame=true&margin-w=8&margin-h=8&column=7)](https://github.com/micahyanoh)
-
-</div>
 
 ---
 
