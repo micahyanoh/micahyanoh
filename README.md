@@ -9,7 +9,7 @@
 
 <!-- TYPING ANIMATION -->
 <a href="https://github.com/micahyanoh">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&pause=800&color=39FF14&background=0D111700&center=true&vWidth=750&lines=root%40micah%3A~%23+./boot_sequence.sh;%5B++OK++%5D+Loading+caffeine+modules...;%5B++OK++%5D+Mounting+%2Fdev%2Fpasta...;%5B++OK++%5D+cat+purring+at+3%25+CPU...;%5B+WARN+%5D+humans.service+intentionally+disabled;%5B++OK++%5D+Alfonce+Micah+Yano+is+now+online." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&pause=800&color=39FF14&background=0D111700&center=true&vWidth=750&lines=root%40micah%3A~%23+./boot_sequence.sh;%5B++OK++%5D+Loading+caffeine+modules...;%5B++OK++%5D+Mounting+%2Fdev%2Fpasta...;%5B++OK++%5D+cat+purring+at+3%25+CPU...;%5B+WARN+%5D+relationship.service+not+found;%5B++OK++%5D+Alfonce+Micah+Yano+is+now+online." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -20,7 +20,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alfonce%20Micah-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfonce-micah-yano-5042b81a7)
 ![OS](https://img.shields.io/badge/OS-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Uptime](https://img.shields.io/badge/Uptime-Powered%20by%20Coffee-6F4E37?style=flat-square&logo=coffeescript&logoColor=white)
+![Status](https://img.shields.io/badge/relationship.service-404%20Not%20Found-ff4444?style=flat-square)
 
 </div>
 
@@ -41,11 +41,12 @@
 │  Welcome. Coffee is mandatory. Cats are law.                     │
 │  Humans optional. Pasta non-negotiable.                          │
 │                                                                  │
-│  $ systemctl status humans.service                               │
-│  ● humans.service - Human Interaction Daemon                     │
-│    Loaded: loaded (/etc/systemd/system/humans.service)           │
-│    Active: inactive (dead) — intentionally disabled              │
-│    Hint: Consider upgrading to cats.service                      │
+│  $ systemctl status relationship.service                         │
+│  ● relationship.service                                          │
+│    Loaded: not-found (Reason: Unit not found)                    │
+│    Active: inactive (dead) since forever                         │
+│    Docs: man 7 touch-grass                                       │
+│    Note: port 443 is open. packets welcome.                      │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
@@ -55,23 +56,23 @@
 
 ## 🐱 /etc/cat.conf
 
-> *"I was going to write a long bio, but my cat sat on the keyboard.*  
-> *This is her README now."*  
+> *"I was going to write a long bio, but my cat sat on the keyboard.*
+> *This is her README now."*
 > — My cat, probably
 
 ```
     /\_/\       UID=root  GID=cats  SHELL=/bin/purr
    ( o.o )   < "Star this repo or I knock it off the desk."
     > ^ <
-   
+
    PID 1337  cat  —  running since boot  —  unkillable
-   
+
    $ kill -9 1337
    bash: kill: (1337) — Operation not permitted
    (cats cannot be terminated)
 ```
 
-I love cats more than I love stack traces. More than merge conflicts.  
+I love cats more than I love stack traces. More than merge conflicts.
 More than cold restarts at 2am. Cats have clean code. Cats don't break prod.
 
 ---
@@ -88,15 +89,19 @@ More than cold restarts at 2am. Cats have clean code. Cats don't break prod.
 
 ```bash
 $ lsblk /dev/alfonce
-NAME        SIZE  TYPE  MOUNTPOINT
-coffee      ∞G    drink /proc/brain
-potatoes    5kg   food  /var/energy
-pasta       ∞G    food  /home/comfort
-cats        ∞     being /root/heart
-humans      0G    -     [NOT MOUNTED]
+NAME              SIZE  TYPE  MOUNTPOINT
+coffee            ∞G    drink /proc/brain
+potatoes          5kg   food  /var/energy
+pasta             ∞G    food  /home/comfort
+cats              ∞     being /root/heart
+camera            1     soul  /mnt/moments
+trail_boots       2     gear  /mnt/mountain
+good_book         ∞     media /mnt/mind
+documentary       4K    media /mnt/reality
+relationship      0G    -     [NOT MOUNTED — unit not found]
 ```
 
-> **Fun fact:** I once debugged a 3-hour issue.  
+> **Fun fact:** I once debugged a 3-hour issue.
 > Fixed it after eating pasta. Correlation? Causation? I don't care. I eat pasta before every PR now.
 
 </div>
@@ -121,6 +126,7 @@ humans      0G    -     [NOT MOUNTED]
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
 ![After Effects](https://img.shields.io/badge/After%20Effects-9999FF?style=for-the-badge&logo=adobeaftereffects&logoColor=white)
+![Lightroom](https://img.shields.io/badge/Lightroom-31A8FF?style=for-the-badge&logo=adobelightroom&logoColor=white)
 
 **Infrastructure & Tools**
 
@@ -134,14 +140,16 @@ humans      0G    -     [NOT MOUNTED]
 ```
 $ neofetch
          .-.-.             micah@nairobi
-        /|/ \|             -------------
+        /|/ \|             ─────────────────────────────────────
        | |   |    🖥️       OS: MicahOS GNU/Linux x86_64
        |  \_/|             Kernel: caffeine-6.9.0-lts
         \___/     🐱       Shell: bash 5.2.21
        /     \             Terminal: whatever works at 2am
       /  🍝   \            CPU: Brain @ 3.6GHz (boosted by ☕)
-     /  🥔  ☕ \           Memory: 8GB (6.9GB used by tabs)
+     /  🥔  ☕ \           Memory: 8GB (6.9GB used by browser tabs)
     /__________\           Uptime: 27 years
+                           Camera: 📷 always loaded
+                           Relationship: [process not found]
 ```
 
 </div>
@@ -150,26 +158,21 @@ $ neofetch
 
 ## 📊 `git log --all --stat` — The Numbers
 
+> *Stats generated live. Unlike my social life, these actually have uptime.*
+
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=micahyanoh&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=39ff14&icon_color=39ff14&text_color=8b949e&ring_color=39ff14"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=micahyanoh&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39ff14&text_color=8b949e"/>
+<a href="https://github.com/micahyanoh">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=micahyanoh&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&cache_seconds=3600" />
+  &nbsp;
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=micahyanoh&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=39ff14&text_color=c9d1d9&cache_seconds=3600&langs_count=8" />
+</a>
 
 </div>
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=micahyanoh&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=39ff14&ring=39ff14&fire=ff6b6b&currStreakLabel=39ff14&sideLabels=8b949e&dates=8b949e)
-
-</div>
-
----
-
-<!-- ACTIVITY GRAPH -->
-<div align="center">
-
-[![Alfonce's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=micahyanoh&bg_color=0d1117&color=39ff14&line=39ff14&point=ffffff&area=true&hide_border=true)](https://github.com/micahyanoh)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=micahyanoh&theme=terminal&hide_border=true&background=0d1117&stroke=39ff14&ring=39ff14&fire=ff6b6b&currStreakLabel=39ff14&sideLabels=39ff14&dates=8b949e&sideNums=ffffff&currStreakNum=ffffff)](https://git.io/streak-stats)
 
 </div>
 
@@ -186,21 +189,21 @@ class AlfonceMicah:
     """
     Applications Developer. HCI Researcher. Cat servant.
     Powered by: coffee, potatoes, pasta (in that order).
-    
+
     WARNING: Do not attempt to interrupt during pasta consumption.
+    WARNING: Currently operating in solitude mode. This is a feature, not a bug.
     """
 
-    __slots__ = ['name','role','location','fuel','companions','humans']
-
     def __init__(self):
-        self.name        = "Alfonce Micah Yano"
-        self.role        = "Applications Developer"
-        self.location    = "Nairobi, Kenya 🇰🇪  (Originally: Kisumu)"
-        self.community   = "Google Developer Groups — GDG Kisii"
-        self.education   = "Moi University"
-        self.fuel        = ["☕ coffee", "🥔 potatoes", "🍝 pasta"]
-        self.companions  = ["🐱 cats", "more cats", "even more cats"]
-        self.humans      = []  # intentionally empty — see /var/log/social.log
+        self.name          = "Alfonce Micah Yano"
+        self.role          = "Applications Developer"
+        self.location      = "Nairobi, Kenya 🇰🇪  (Originally: Kisumu)"
+        self.community     = "Google Developer Groups — GDG Kisii"
+        self.education     = "Moi University"
+        self.fuel          = ["☕ coffee", "🥔 potatoes", "🍝 pasta"]
+        self.companions    = ["🐱 cats", "more cats", "even more cats"]
+        self.relationship  = None  # compiles fine. ships fine. sleeps fine.
+        self.humans        = []    # intentionally empty — see /var/log/social.log
 
     def research_interests(self) -> list[str]:
         return [
@@ -211,23 +214,127 @@ class AlfonceMicah:
             "Fullstack Application Development",
         ]
 
-    def current_focus(self) -> str:
-        return "Building digital health tools that actually make sense to humans"
+    def hobbies(self) -> dict:
+        return {
+            "📷 photography"  : "Capturing moments that words fail to compress",
+            "🥾 hiking"       : "Solo. Always solo. The mountain doesn't ask questions.",
+            "📚 literature"   : "Reading books nobody else in the room has heard of",
+            "🎞️ documentaries": "The only content worth the bandwidth",
+        }
+
+    def relationship_status(self) -> str:
+        # TODO: implement
+        # FIXME: has been TODO since v1.0
+        # NOTE: PR welcome. Must pass code review. No merge conflicts please.
+        raise NotImplementedError("Feature still in backlog. ETA: unknown.")
 
     def when_not_coding(self) -> str:
-        return "Staring at my cat. She stares back. We understand each other."
-
-    def __repr__(self) -> str:
-        return f"<AlfonceMicah v27.0 location='{self.location}' status='caffeinated'>"
+        return "Somewhere on a trail, camera in hand, no notifications, no Wi-Fi, no regrets."
 
 
-if __name__ == "__main__":
-    me = AlfonceMicah()
-    print(repr(me))
-    print(me.when_not_coding())
-    # Output: <AlfonceMicah v27.0 location='Nairobi, Kenya 🇰🇪' status='caffeinated'>
-    # Output: "Staring at my cat. She stares back. We understand each other."
+me = AlfonceMicah()
+try:
+    print(me.relationship_status())
+except NotImplementedError as e:
+    print(f"Error: {e}")
+    # Error: Feature still in backlog. ETA: unknown.
 ```
+
+---
+
+## 📷 `mount /dev/camera /mnt/moments` — Photography
+
+<div align="center">
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│  PHOTOGRAPHER MODE — ACTIVE                                      │
+│──────────────────────────────────────────────────────────────────│
+│                                                                  │
+│  $ exiftool /mnt/moments/                                        │
+│                                                                  │
+│  Subject   : Everything humans overlook                          │
+│  Aperture  : Wide open (like my schedule — hint hint)            │
+│  Shutter   : Fast enough to catch what words can't               │
+│  ISO       : High enough to find beauty in the dark              │
+│  Flash     : Never. Natural light or nothing.                    │
+│  Location  : Wherever the trail ends and the view begins         │
+│  Companion : None. Solitude has better composition.              │
+│                                                                  │
+│  > I don't just write code. I also frame reality.                │
+│  > Sometimes a photograph says what a commit message can't.      │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+![Photography](https://img.shields.io/badge/Photography-Lightroom%20%2B%20Photoshop-31A8FF?style=for-the-badge&logo=adobelightroom&logoColor=white)
+![Style](https://img.shields.io/badge/Style-Natural%20Light%20Only-FCC624?style=for-the-badge)
+![Companion](https://img.shields.io/badge/Shoots-Solo-39ff14?style=for-the-badge)
+
+</div>
+
+---
+
+## 🥾 `cd /mnt/mountain && ./hike.sh --alone`
+
+<div align="center">
+
+```bash
+$ ./hike.sh --companion=none --music=none --notifications=off
+
+[  OK  ] Silence loaded successfully
+[  OK  ] Fresh air mounted at /mnt/lungs
+[  OK  ] Ego temporarily unmounted
+[ INFO ] No Wi-Fi detected. This is not an error.
+[ INFO ] Signal: 0 bars. Mood: 10/10.
+[  OK  ] Camera armed. Eyes open.
+[ WARN ] Estimated return: "when I feel like it"
+
+> Hiking alone isn't lonely.
+> It's just running in single-user mode.
+> More stable. Less noise. Higher throughput.
+
+$ echo $THOUGHTS | sort --unique | grep -v "other_people"
+```
+
+> *"The mountain has never sent me a vague Slack message at 5pm on a Friday."*
+
+</div>
+
+---
+
+## 📚 `cat /mnt/mind/` — Literature & Documentaries
+
+<div align="center">
+
+```
+$ ls -lh /mnt/mind/
+drwxr-xr-x  books/          <- literature: the original long-form content
+drwxr-xr-x  documentaries/  <- reality, compressed and curated
+-rw-r--r--  philosophy.md   <- still processing
+-rw-r--r--  README.md       <- you are here
+
+$ wc -l /mnt/mind/books/*
+Reading list: longer than my git log.
+
+$ grep -r "easy_reads" /mnt/mind/books/
+grep: no matches found.
+
+$ file /mnt/mind/documentaries/queue
+documentaries/queue: ASCII text, 847 lines, still growing.
+
+NOTE: I watch documentaries the same way I write code —
+      full attention, no skipping, strong opinion at the end.
+```
+
+| Format | Vibe | Why |
+|--------|------|-----|
+| 📖 Literature | Dense. Layered. Rewarding. | Same reason I use Vim |
+| 🎞️ Documentaries | Raw. Real. Uncomfortable. | I prefer unfiltered output |
+| 🗻 Trails | Silent. Honest. Humbling. | Nature has no Stack Overflow |
+| 📷 Photography | Still. Composed. Permanent. | `git commit`, but analog |
+
+</div>
 
 ---
 
@@ -235,18 +342,15 @@ if __name__ == "__main__":
 
 <div align="center">
 
-```
-drwxr-xr-x  micah  micah   4096  Feb 2025  ./
-drwxr-xr-x  micah  micah   4096  --        ../
-```
-
 | Project | Stack | Status | PID |
 |---------|-------|--------|-----|
 | 🏥 Health Information Systems | .NET · Python · MySQL | 🟢 `RUNNING` | 1001 |
 | 📱 Mobile Health Apps | Flutter · Dart | 🟡 `BUILDING` | 1002 |
 | 🎨 GDG Kisii Media & Design | Photoshop · Motion | 🟢 `RUNNING` | 1003 |
 | ☁️ Fullstack Web Projects | Node.js · JS · REST APIs | 🟢 `RUNNING` | 1004 |
+| 📷 Photography Portfolio | Light · Shadow · Patience | 🟢 `ALWAYS SHOOTING` | 1005 |
 | 🐱 Cat Supervision Protocol | Pure observation | 🟢 `ALWAYS RUNNING` | 1 |
+| 💞 relationship.service | — | 🔴 `UNIT NOT FOUND` | — |
 
 </div>
 
@@ -256,28 +360,35 @@ drwxr-xr-x  micah  micah   4096  --        ../
 
 <div align="center">
 
-```
+```ini
 # /etc/philosophy.conf — micah's core directives
-# Last modified: always
+# Last modified: always | Maintained by: me, myself, and my cat
 
 [design]
-rule_1 = "Good design is like a good potato dish —
+rule_1 = "Good design is like a good potato dish:
            simple, comforting, and everyone agrees it works."
 
 [code_quality]
 rule_1 = "Bad code is like cold coffee.
            Technically still coffee. But why."
 
-[humans_vs_cats]
-rule_1 = "I design for humans, but I prefer cats."
-rule_2 = "Cats don't open tickets for vague requirements."
-rule_3 = "Cats have never blamed me for a failed deployment."
+[solitude]
+rule_1 = "Solo hiking is running the OS in single-user mode.
+           Faster. Quieter. You find out what's really in /proc/self."
+rule_2 = "A photograph taken alone hits different.
+           No one to agree with. No one to perform for. Just truth."
 
 [linux]
 rule_1 = "There are two kinds of people:
            those who use Linux and those who will."
 rule_2 = "sudo make me a sandwich"
-rule_3 = "It works on my machine → ship the machine"
+rule_3 = "It works on my machine -> ship the machine"
+
+[relationships]
+rule_1 = "My pull requests get reviewed faster than my DMs get replied to."
+rule_2 = "I have excellent uptime. Low latency. Open ports. Just saying."
+rule_3 = "If you appreciate a good documentary and don't mind
+           hiking in silence, my /etc/hosts has space for one more entry."
 
 [debugging]
 rule_1 = "Have you tried turning it off and eating pasta?"
@@ -293,11 +404,40 @@ rule_1 = "Have you tried turning it off and eating pasta?"
 
 > *Because snakes and terminals belong together.*
 
-![Snake animation](https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![Snake animation](https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+<!--
+  To activate the animated snake, add this GitHub Actions workflow:
+  File: .github/workflows/snake.yml
 
-<!-- Fallback animated grid if snake hasn't been generated yet -->
-[![Activity](https://github-readme-activity-graph.vercel.app/graph?username=micahyanoh&bg_color=0d1117&color=39ff14&line=39ff14&point=39ff14&area_color=0a3d0a&area=true&hide_border=true&custom_title=contribution%20pulse%20%7C%20like%20a%20snake%20but%20more%20honest)](https://github.com/micahyanoh)
+  name: Generate Snake
+  on:
+    schedule:
+      - cron: "0 */12 * * *"
+    workflow_dispatch:
+  jobs:
+    generate:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: Platane/snk/svg-only@v3
+          with:
+            github_user_token: ${{ secrets.GITHUB_TOKEN }}
+            outputs: |
+              dist/snake.svg
+              dist/snake-dark.svg?palette=github-dark
+        - uses: crazy-max/ghaction-github-pages@v3
+          with:
+            target_branch: output
+            build_dir: dist
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+-->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/snake.svg" />
+</picture>
 
 > *The snake moves like my cat at 3am. Chaotic. Purposeful. Unkillable.*
 
@@ -318,8 +458,6 @@ $ ./riddle.sh
   I work best when humans get some rest.
 
   What am I?
-  
-$ ./answer.sh --reveal
 ```
 
 <details>
@@ -331,7 +469,7 @@ $ ./answer.sh --reveal
 > Decrypting.....
 
 ANSWER: Code.
-(Also acceptable: "my cat at 4am")
+(Also acceptable: "my cat at 4am" OR "my relationship.service")
 
 exit code: 0
 ```
@@ -354,11 +492,17 @@ exit code: 0
 PING alfonce.micah (nairobi.ke): 56 data bytes
 64 bytes from alfonce: icmp_seq=0 ttl=64 time=☕ms
 64 bytes from alfonce: icmp_seq=1 ttl=64 time=🍝ms
-64 bytes from alfonce: icmp_seq=2 ttl=64 time=🐱ms
+64 bytes from alfonce: icmp_seq=2 ttl=64 time=📷ms
+64 bytes from alfonce: icmp_seq=3 ttl=64 time=🐱ms
 ^C
 --- alfonce.micah ping statistics ---
-3 packets transmitted, 3 received, 0% packet loss
-Response: positive (may involve cats)
+4 packets transmitted, 4 received, 0% packet loss
+
+Port 443  : OPEN  <- encrypted. trustworthy.
+Port 8080 : OPEN  <- dev mode. slightly chaotic.
+Port 3000 : OPEN  <- always building something.
+Port 22   : OPEN  <- SSH welcome. no vague messages please.
+Port 69   : CLOSED <- relationship.service still not installed.
 ```
 
 </div>
@@ -380,18 +524,20 @@ Response: positive (may involve cats)
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a3d0a,100:0d1117&height=140&section=footer&animation=fadeIn&fontColor=39ff14"/>
 
 ```bash
-$ shutdown -h now "Built with ☕ + 🥔 + 🍝 + 🐱 energy"
+$ shutdown -h now "Built with ☕ + 🥔 + 🍝 + 🐱 + 📷 + 🥾 energy"
 
 Broadcast message from micah@nairobi:
 The system is going down for maintenance NOW!
-(Maintenance = sleep. Restart = more coffee.)
+(Maintenance = solo hike + a good documentary. Restart = more coffee.)
 
 No humans were harmed in the making of this README.
-Cats supervised. As always.
+Cats supervised. Camera was loaded. Trail was hiked alone. As always.
+
+> relationship.service: still not found. contributions welcome.
 ```
 
-**`$ alfonce --version`**  
-**`Alfonce Micah Yano v27.0-lts (Nairobi Edition) — stable`**  
-**`Build: 🐱-powered | Arch: fullstack | License: MIT-cat`**
+**`$ alfonce --version`**
+**`Alfonce Micah Yano v27.0-lts (Nairobi Edition) — stable`**
+**`Build: 🐱-powered | Arch: fullstack | License: MIT-cat | Ports: open`**
 
 </div>
