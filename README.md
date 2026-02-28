@@ -179,7 +179,7 @@ $ neofetch
 <!-- 3-COLUMN LANGUAGE CARDS (stolen from the best) -->
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micahyanoh&theme=merko&layout=compact&hide_border=true&bg_color=0d1117&title_color=39ff14&text_color=c9d1d9&langs_count=8&count_private=true&cache_seconds=3600" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=micahyanoh&theme=github_dark&utcOffset=3" width="32%" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=micahyanoh&theme=github_dark&langs_count=8" width="32%" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=micahyanoh&theme=github_dark&langs_count=8" width="32%" />
 
