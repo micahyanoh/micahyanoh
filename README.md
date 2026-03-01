@@ -680,21 +680,34 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 <br/>
 
 <!-- ================================================================
-     🐍 SNAKE — requires one-time GitHub Actions setup (see below)
-     Once the workflow runs, the <picture> block below becomes active
+     🥾 HIKING TRAIL — replaces the snake. no setup needed. always works.
      ================================================================ -->
 
-<!-- STEP 1: Create .github/workflows/snake.yml in this repo (see the collapsible at the bottom of this README) -->
-<!-- STEP 2: Go to Settings → Actions → General → set "Read and write permissions" → Save -->
-<!-- STEP 3: Go to Actions tab → "generate animation" → "Run workflow" — done. Updates daily after that. -->
+<!-- animated hiker walks across the trail via typing SVG -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=120&pause=3000&color=39FF14&background=0D111700&center=true&vWidth=860&vHeight=22&lines=%F0%9F%A5%BE+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+." alt="hiker walking" width="100%"/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake.svg"/>
-  <img alt="🐍 snake eating contributions — run the workflow to activate" src="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-</picture>
+```
+                                                    *
+        *                ★                        /|\          ★
+                  ★             *               /  |  \
+   ★                                  *       /    |    \           *
+               *                            /  🏔️  |     \
+                          ★              /         |      \      ★
+      *                                /     ★     |       \
+                  *                  /             |    ★   \          *
+  ★                               /_______________| ________\
+                                 /                               \
+                 ★              /    Nairobi → Summit             \
+      *                        /   dist: unknown  eta: "whenever"  \
+                              /______________________________________\
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  trail: /mnt/mountain     companion: none     signal: 0 bars     mood: ████
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
-> *320 commits. One snake. Zero regrets. The cat is watching.*
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=60&pause=2500&color=39FF14&background=0D111700&center=true&vWidth=860&vHeight=70&lines=%24+./hike.sh+--solo+--destination%3Dsummit+--notifications%3Doff;%5B+INFO+%5D+Loading+silence...+%5B++OK++%5D;%5B+INFO+%5D+Mounting+%2Fmnt%2Flungs+with+fresh+air...+%5B++OK++%5D;%5B+INFO+%5D+Checking+wifi...+%5B+NONE+%5D+%5B+GOOD+%5D;%5B+INFO+%5D+GPS%3A+active+%7C+ETA%3A+when+I+feel+like+it+%7C+Snacks%3A+loaded;%5B++OK++%5D+Camera+armed.+Eyes+open.+Humans%3A+none.+Commencing." alt="hike boot sequence" width="100%"/>
+
+> *"The mountain has no merge conflicts. No standups. No vague Slack messages. Just altitude."*
 
 </div>
 
@@ -952,56 +965,6 @@ sudo: 1 incorrect password attempt
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
-
-<!-- SNAKE WORKFLOW SETUP NOTE -->
-<details>
-<summary>🐍 <b>How to activate the animated snake — 3 steps</b></summary>
-
-<br/>
-
-**Step 1** — Create this file in your `micahyanoh` repo: `.github/workflows/snake.yml`
-
-**Step 2** — Go to repo **Settings → Actions → General → Workflow permissions** → select **"Read and write permissions"** → Save
-
-**Step 3** — Go to **Actions tab** → click **"generate animation"** → **"Run workflow"** → **"Run workflow"** (green button). The snake SVG is pushed to an `output` branch and the README snake appears instantly. It auto-regenerates every 12 hours after that.
-
-```yaml
-name: generate animation
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
 
 <br/><br/>
 
