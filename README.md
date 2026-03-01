@@ -4,8 +4,8 @@
 
 <div align="center">
 
-<!-- ANIMATED HEADER — venom type: animated liquid/ink strokes around name, neon green palette -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=280&text=Alfonce%20Micah%20Yano&fontSize=58&color=0:0d1117,40:0a2a0a,100:0d1117&fontColor=39ff14&stroke=39ff14&strokeWidth=2&desc=%24%20whoami%20%7C%20Software%20Developer%20%7C%20HCI%20Researcher%20%7C%20Cat%20Overlord&descAlignY=72&descColor=7fff00&descSize=15&animation=fadeIn"/>
+<!-- ANIMATED HEADER — random gradient on every reload, typewriter name animation -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=280&text=Alfonce%20Micah%20Yano&fontSize=58&color=gradient&animation=twinkling&fontColor=fff&stroke=ffffff&strokeWidth=1&desc=%24%20whoami%20%7C%20Software%20Developer%20%7C%20HCI%20Researcher%20%7C%20Cat%20Overlord&descAlignY=72&descColor=ffffffcc&descSize=15"/>
 
 <!-- TYPING ANIMATION — boot sequence -->
 <a href="https://github.com/micahyanoh">
@@ -789,8 +789,8 @@ exit code: 0
 
 <div align="center">
 
-<!-- FOOTER WAVE IN -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:061406,75:0a3d0a,100:0d1117&height=120&section=footer&animation=fadeIn"/>
+<!-- FOOTER WAVE IN — random gradient matches header on reload -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn"/>
 
 <!-- LINE 1: SHUTDOWN COMMAND TYPED OUT -->
 <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=17&pause=700&color=39FF14&background=0D111700&center=true&vWidth=800&lines=micah%40nairobi%3A~%24+sudo+shutdown+-h+now+%22session+complete%22" alt="shutdown command" />
@@ -831,7 +831,7 @@ exit code: 0
 
 <br/>
 
-<!-- FOOTER WAVE OUT -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a3d0a,80:061406,100:0d1117&height=80&section=footer&animation=fadeIn&reversal=true"/>
+<!-- FOOTER WAVE OUT — random gradient -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer&animation=fadeIn&reversal=true"/>
 
 </div>
