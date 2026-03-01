@@ -29,26 +29,7 @@
 <!-- TERMINAL BOOT SECTION -->
 <div align="center">
 
-```bash
-┌──────────────────────────────────────────────────────────────────┐
-│                  MICAH OS v27.0 — NAIROBI EDITION                │
-│                  Kernel: caffeine-6.9.0-lts                      │
-│──────────────────────────────────────────────────────────────────│
-│  $ uname -a                                                      │
-│  MicahOS GNU/Linux x86_64 Developer Build (Nairobi, Kenya 🇰🇪)   │
-│                                                                  │
-│  $ cat /etc/motd                                                 │
-│  Welcome. Coffee is mandatory. Cats are law.                     │
-│  Humans optional. Pasta non-negotiable.                          │
-│                                                                  │
-│  $ systemctl status relationship.service                         │
-│  ● relationship.service                                          │
-│    Loaded: not-found (Reason: Unit not found)                    │
-│    Active: inactive (dead) since forever                         │
-│    Docs: man 7 touch-grass                                       │
-│    Note: port 443 is open. packets welcome.                      │
-└──────────────────────────────────────────────────────────────────┘
-```
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=600&color=39FF14&background=0D111700&center=true&vWidth=700&lines=%E2%94%8C%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%9C;%E2%94%82++MICAH+OS+v27.0+--+NAIROBI+EDITION++%E2%94%82;%E2%94%82++Kernel%3A+caffeine-6.9.0-lts++%E2%94%82;%E2%94%82++%24+uname+-a++%E2%94%82;%E2%94%82++MicahOS+GNU%2FLinux+x86_64+(Nairobi%2C+Kenya)++%E2%94%82;%E2%94%82++%24+cat+%2Fetc%2Fmotd++%E2%94%82;%E2%94%82++Welcome.+Coffee+mandatory.+Cats+are+law.++%E2%94%82;%E2%94%82++Humans+optional.+Pasta+non-negotiable.++%E2%94%82;%E2%94%82++%24+systemctl+status+relationship.service++%E2%94%82;%E2%94%82++Active%3A+inactive+(dead)+since+forever++%E2%94%82;%E2%94%82++Note%3A+port+443+is+open.+packets+welcome.++%E2%94%82;%E2%94%94%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%98" alt="MICAH OS boot" />
 
 </div>
 
@@ -608,22 +589,15 @@ exit code: 0
 [![GitHub](https://img.shields.io/badge/GitHub-micahyanoh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/micahyanoh)
 [![Instagram](https://img.shields.io/badge/Instagram-@stolen__pen__ke-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/stolen_pen_ke)
 
-```
-PING alfonce.micah (nairobi.ke): 56 data bytes
-64 bytes from alfonce: icmp_seq=0 ttl=64 time=☕ms
-64 bytes from alfonce: icmp_seq=1 ttl=64 time=🍝ms
-64 bytes from alfonce: icmp_seq=2 ttl=64 time=📷ms
-64 bytes from alfonce: icmp_seq=3 ttl=64 time=🐱ms
-^C
---- alfonce.micah ping statistics ---
-4 packets transmitted, 4 received, 0% packet loss
+<br/>
 
-Port 443  : OPEN  <- encrypted. trustworthy.
-Port 8080 : OPEN  <- dev mode. slightly chaotic.
-Port 3000 : OPEN  <- always building something.
-Port 22   : OPEN  <- SSH welcome. no vague messages please.
-Port 69   : CLOSED <- relationship.service still not installed.
-```
+<!-- ANIMATED PING OUTPUT -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=700&color=39FF14&background=0D111700&center=true&vWidth=700&lines=PING+alfonce.micah+(nairobi.ke)%3A+56+data+bytes;64+bytes+from+alfonce%3A+icmp_seq%3D0+ttl%3D64+time%3D%E2%98%95ms;64+bytes+from+alfonce%3A+icmp_seq%3D1+ttl%3D64+time%3D%F0%9F%8D%9Dms;64+bytes+from+alfonce%3A+icmp_seq%3D2+ttl%3D64+time%3D%F0%9F%93%B7ms;64+bytes+from+alfonce%3A+icmp_seq%3D3+ttl%3D64+time%3D%F0%9F%90%B1ms;%5EC;---+alfonce.micah+ping+statistics+--;4+packets+transmitted%2C+4+received%2C+0%25+packet+loss" alt="ping output" />
+
+<br/>
+
+<!-- ANIMATED PORT SCAN -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=800&color=4EAA25&background=0D111700&center=true&vWidth=700&lines=Port+443++%3A+OPEN++%3C-+encrypted.+trustworthy.;Port+8080+%3A+OPEN++%3C-+dev+mode.+slightly+chaotic.;Port+3000+%3A+OPEN++%3C-+always+building+something.;Port+22+++%3A+OPEN++%3C-+SSH+welcome.+no+vague+messages.;Port+1738+%3A+OPEN++%3C-+country+music+streaming.+%F0%9F%8E%B8;Port+69+++%3A+CLOSED+%3C-+relationship.service+not+installed." alt="port scan" />
 
 </div>
 
