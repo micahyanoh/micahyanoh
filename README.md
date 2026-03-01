@@ -124,11 +124,11 @@ relationship      0G    -     [NOT MOUNTED — unit not found]
 **Languages & Frameworks**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart_(with_coffee)-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
 **Design & Research**
 
@@ -219,21 +219,53 @@ $ neofetch
 class AlfonceMicah:
     """
     Applications Developer. HCI Researcher. Cat servant.
-    Powered by: coffee, potatoes, pasta (in that order).
+    Main language: Python. Secondary language: Dart.
+    Human language: minimal. Coffee language: fluent.
 
-    WARNING: Do not attempt to interrupt during pasta consumption.
+    WARNING: Do not interrupt during pasta consumption.
+    WARNING: Do not ask why Python when Dart exists.
+             The answer is "because I said so" and also "whitespace."
     WARNING: Currently operating in solitude mode. Feature, not a bug.
     """
 
     def __init__(self):
-        self.name          = "Alfonce Micah Yano"
-        self.role          = "Applications Developer"
-        self.location      = "Nairobi, Kenya 🇰🇪  (Originally: Kisumu)"
-        self.community     = "Google Developer Groups — GDG Kisii"
-        self.fuel          = ["☕ coffee", "🥔 potatoes", "🍝 pasta"]
-        self.companions    = ["🐱 cats", "more cats", "even more cats"]
-        self.relationship  = None  # compiles. ships. sleeps. fine.
-        self.humans        = []    # intentionally empty — see /var/log/social.log
+        self.name           = "Alfonce Micah Yano"
+        self.role           = "Applications Developer"
+        self.location       = "Nairobi, Kenya 🇰🇪  (Originally: Kisumu)"
+        self.community      = "Google Developer Groups — GDG Kisii"
+        self.primary_lang   = "Python"        # love. therapy. life purpose.
+        self.secondary_lang = "Dart"          # for when Python feels too easy
+        self.writes_dart    = "occasionally"  # specifically: while enjoying coffee
+        self.coffee_status  = "CRITICAL"      # always. non-negotiable.
+        self.fuel           = ["☕ coffee", "🥔 potatoes", "🍝 pasta"]
+        self.companions     = ["🐱 cats", "more cats", "even more cats"]
+        self.relationship   = None            # compiles. ships. sleeps. fine.
+        self.humans         = []              # intentionally empty — see /var/log/social.log
+
+    def preferred_stack(self) -> dict:
+        return {
+            "Python" : "My first love. Readable, elegant, and never judges me.",
+            "Dart"   : "I only write Dart when coffee is present. Coincidence? No.",
+            "Flutter": "Because one codebase for all platforms is just Python logic applied to UI.",
+            ".NET"   : "I don't talk about it at parties. It works though.",
+            "SQL"    : "SELECT * FROM problems WHERE solution IS NOT NULL; — 0 rows returned.",
+        }
+
+    def typical_workflow(self) -> str:
+        return """
+        1. Open VS Code
+        2. Stare at blank file
+        3. Make coffee  ← the real step 1
+        4. Write 3 lines of Python
+        5. Realise Flutter needs this as Dart
+        6. Rewrite in Dart while sipping coffee
+        7. Both versions work. Ship Python. Nobody needs to know.
+        """
+
+    def on_python_vs_dart(self) -> str:
+        # This is not a debate. Python won before Dart showed up.
+        # But Dart with a good coffee? Actually tolerable.
+        return "I love Python. Dart is the other language I keep on the side. Coffee makes both better."
 
     def research_interests(self) -> list[str]:
         return [
@@ -246,23 +278,25 @@ class AlfonceMicah:
 
     def hobbies(self) -> dict:
         return {
-            "📷 photography"  : "Capturing moments words fail to compress",
-            "🥾 hiking"       : "Solo. Always. The mountain asks no questions.",
-            "📚 literature"   : "Books nobody else in the room has heard of",
-            "🎞️ documentaries": "The only content worth the bandwidth",
+            "📷 photography"   : "Capturing moments words fail to compress",
+            "🥾 hiking"        : "Solo. Always. The mountain asks no questions.",
+            "📚 literature"    : "Books nobody else in the room has heard of",
+            "🎞️ documentaries" : "The only content worth the bandwidth",
+            "🎸 country music" : "Three chords and the truth. Mounted at /mnt/soul.",
         }
 
     def relationship_status(self) -> str:
         # TODO: implement
         # FIXME: has been TODO since v1.0
         # NOTE: PR welcome. Must pass code review. No merge conflicts please.
+        # ALSO NOTE: Must appreciate Python. Dart tolerance a bonus.
         raise NotImplementedError("Feature still in backlog. ETA: unknown.")
 ```
 
 <div align="center">
 
 <!-- ANIMATED: execution output -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=900&color=4EAA25&background=0D111700&center=true&vWidth=680&lines=%24+python3+micah.py;%3E%3E+Initialising+AlfonceMicah...+++++++++++++%5B++OK++%5D;%3E%3E+Loading+caffeine+drivers...++++++++++++++%5B++OK++%5D;%3E%3E+Mounting+%2Fmnt%2Fcats...+++++++++++++++++++++%5B++OK++%5D;%3E%3E+Checking+relationship.service...+++++++%5B+FAIL+%5D;+++NotImplementedError%3A+ETA%3A+unknown.;%3E%3E+Falling+back+to+solitude.service...++++%5B++OK++%5D;%3E%3E+System+ready.+Coffee+levels+nominal.;micah%40nairobi%3A~%24+_" alt="execution output" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=900&color=4EAA25&background=0D111700&center=true&vWidth=700&lines=%24+python3+micah.py;%3E%3E+Initialising+AlfonceMicah...+%5B++OK++%5D;%3E%3E+Loading+Python+environment...+%5B++OK++%5D;%3E%3E+Dart+detected...+%5B+WARN+%5D+coffee+required+first;%3E%3E+Brewing+coffee...+%5B++OK++%5D+Dart+now+tolerable;%3E%3E+Mounting+%2Fmnt%2Fcats...+%5B++OK++%5D;%3E%3E+Checking+relationship.service...+%5B+FAIL+%5D;+++NotImplementedError%3A+ETA%3A+unknown.;%3E%3E+Falling+back+to+solitude.service...+%5B++OK++%5D;%3E%3E+System+ready.+Python+loaded.+Coffee+nominal.;micah%40nairobi%3A~%24+_" alt="execution output" />
 
 </div>
 
