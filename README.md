@@ -150,18 +150,22 @@ relationship      0G    -     [NOT MOUNTED — unit not found]
 ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
 
 ```
-$ neofetch
-         .-.-.             micah@nairobi
-        /|/ \|             ─────────────────────────────────────
-       | |   |    🖥️       OS: MicahOS GNU/Linux x86_64
-       |  \_/|             Kernel: caffeine-6.9.0-lts
-        \___/     🐱       Shell: bash 5.2.21
-       /     \             Terminal: whatever works at 2am
-      /  🍝   \            CPU: Brain @ 3.6GHz (boosted by ☕)
-     /  🥔  ☕ \           Memory: 8GB (6.9GB used by browser tabs)
-    /__________\           Uptime: 27 years
-                           Camera: 📷 always loaded
-                           Relationship: [process not found]
+$ htop — micah@nairobi                                              [CPU ████████░░ 83%] [MEM ██████░░░░ 69%]
+────────────────────────────────────────────────────────────────────────────────────────────
+  PID   USER     PRI  NI   CPU%   MEM%   TIME+       COMMAND
+────────────────────────────────────────────────────────────────────────────────────────────
+    1   micah     20   0   99.9    42%   27y 0d       /bin/cats --foreground --purring
+  101   micah     20   0   87.3    38%   5y 3m        python3 /usr/bin/think
+  102   micah     20   0   74.1    22%   5y 3m        flutter build /mnt/health_apps
+  103   micah     20   0   55.0    18%   3y 1m        research --method=DSR --output=paper
+  420   micah     15   0   42.0    15%   2y 6m        /usr/bin/camera --shoot --solo
+  422   micah     10   0   38.5    12%   27y 0d        country_music --daemon --volume=max
+  500   micah     10   0   31.2     8%   1y 2m        medium --draft --opinions=unlimited
+  501   micah     10   0   22.0     5%   4y 0m        git commit -m "wip: still thinking"
+  666   micah      5   0    8.3     3%   27y 0d       /usr/bin/coffee --brew --repeat
+ 1337   root       0 -20    0.0     0%       0:00      relationship.service [DEAD]
+────────────────────────────────────────────────────────────────────────────────────────────
+F1:Help  F2:Setup  F3:Search  F9:Kill  F10:Quit     (note: F9 on PID 1 has no effect. cats cannot die.)
 ```
 
 <br/>
@@ -172,7 +176,29 @@ $ neofetch
 
 ---
 
-## 📊 `git log --all --stat` — The Numbers
+## 📡 `cat /proc/micahyanoh/skill_levels` — Proficiency Radar
+
+<div align="center">
+
+```
+micah@nairobi:~$ skill --benchmark --output=ascii
+
+  Python      ████████████████████░░░  90% │ primary. always.
+  Dart        ████████████████░░░░░░░  72% │ with coffee only
+  Flutter     ███████████████░░░░░░░░  68% │ one codebase to rule them all
+  JavaScript  ██████████████░░░░░░░░░  62% │ it works until it doesn't
+  .NET        ████████████░░░░░░░░░░░  54% │ don't ask. it compiles.
+  SQL         ████████████████░░░░░░░  70% │ SELECT * FROM answers — 0 rows
+  Bash        ██████████████████░░░░░  80% │ pipe everything
+  Figma       ███████████████░░░░░░░░  65% │ design before code. always.
+  Git         ████████████████████░░░  88% │ commit early, commit often, git blame later
+  Linux       ████████████████████░░░  89% │ btw i use linux
+  Vim         ████████░░░░░░░░░░░░░░░  35% │ i know how to exit. that's enough.
+  Photography ████████████████████░░░  87% │ the other language i'm fluent in
+  Coffee      ████████████████████████ 99% │ [CRITICAL SYSTEM DEPENDENCY — cannot go lower]
+```
+
+</div>
 
 > *Stats generated live. Unlike my social life, these actually have uptime.*
 
@@ -651,6 +677,18 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 <!-- ISOMETRIC COMMIT CALENDAR — always renders, no setup needed -->
 [![isometric](https://github-readme-activity-graph.vercel.app/graph?username=micahyanoh&bg_color=0d1117&color=39ff14&line=00ff41&point=39ff14&area=true&hide_border=true&radius=8&custom_title=activity+radar+%7C+micahyanoh)](https://github.com/micahyanoh)
 
+<br/>
+
+<!-- 🐍 SNAKE EATING CONTRIBUTIONS — the most satisfying thing on any GitHub profile -->
+<!-- NOTE: To activate the snake, add .github/workflows/snake.yml to this repo — see bottom of README -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake.svg"/>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
+
+> *The snake is eating commits. The cat approves. This is fine.*
+
 </div>
 
 ---
@@ -663,6 +701,11 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=micahyanoh&theme=github_dark" width="100%"/>
 
 <br/>
+
+<!-- TROPHIES -->
+<img src="https://github-profile-trophy.vercel.app/?username=micahyanoh&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7" width="100%" alt="trophies"/>
+
+<br/><br/>
 
 <table>
 <tr>
@@ -754,6 +797,98 @@ exit code: 0
 
 ---
 
+## 🎸 `cat /mnt/soul` — Now Playing
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  ♫  NOW PLAYING — /mnt/soul                                         │
+│─────────────────────────────────────────────────────────────────────│
+│                                                                     │
+│  🎸  Genre    : Country Music                                       │
+│  🎵  Status   : ALWAYS_MOUNTED  (cannot unmount — see /etc/fstab)   │
+│  🔊  Volume   : max (non-negotiable)                                │
+│  ⏭️  Shuffle  : off  (every song hits different when you mean it)   │
+│  📻  Source   : /dev/soul → /mnt/heartbreak → /mnt/trucks → repeat  │
+│                                                                     │
+│  ████████████████████████████░░░░░░░░  3:24 / 4:12                  │
+│                                                                     │
+│  >> "Three chords and the truth.                                    │
+│      The only genre that understands                                │
+│      git blame for your feelings."                                  │
+│                                                                     │
+│  $ systemctl status country_music.service                           │
+│  ● country_music.service — Soul Audio Daemon                        │
+│    Active: active (running) since v1.0                              │
+│    Cannot be stopped. Will not be stopped.                          │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+![Country Music](https://img.shields.io/badge/🎸_Now_Playing-Country_Music-B8860B?style=for-the-badge&labelColor=0d1117)
+![Uptime](https://img.shields.io/badge/Uptime-27_years-39ff14?style=flat-square&labelColor=0d1117)
+![Volume](https://img.shields.io/badge/Volume-MAX-ff4444?style=flat-square&labelColor=0d1117)
+![Unmountable](https://img.shields.io/badge/Unmountable-true-39ff14?style=flat-square&labelColor=0d1117)
+
+</div>
+
+---
+
+## 🔐 `sudo -l` — Restricted Access
+
+<div align="center">
+
+<details>
+<summary><code>$ sudo cat /etc/micah/secrets.conf</code> 🔒</summary>
+
+<br/>
+
+```
+[sudo] password for micah: ••••••••••••
+
+Sorry, user visitor is not allowed to execute
+'/bin/cat /etc/micah/secrets.conf' as root on nairobi.
+
+  However, the following is publicly known:
+
+  [DECLASSIFIED — clearance level: curiosity]
+
+  secret_1  = "I've rewritten the same function 4 times.
+                Each time I thought it was final. It was not."
+
+  secret_2  = "My commit messages at 2am are either
+                'fix' or 'pls work' or 'WHY'."
+
+  secret_3  = "I once used Stack Overflow to debug
+                a Stack Overflow post."
+
+  secret_4  = "The cat has walked across my keyboard
+                and accidentally closed 3 browser tabs.
+                One of them had the answer."
+
+  secret_5  = "I named a variable 'temp2' in production.
+                It has been there for 2 years.
+                It is not temporary."
+
+  secret_6  = "I have a folder called 'final_FINAL_v3_USE_THIS'.
+                It was not the one I used."
+
+  secret_7  = "I understand country music.
+                This is both a strength and a warning."
+
+  relationship.conf = [REDACTED — file not found since v1.0]
+
+sudo: 1 incorrect password attempt
+      (nice try though. the cat saw everything.)
+```
+
+</details>
+
+</div>
+
+---
+
 ## 🌍 `ping alfonce --verbose`
 
 <div align="center">
@@ -807,6 +942,54 @@ exit code: 0
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
+
+<!-- SNAKE WORKFLOW SETUP NOTE -->
+<details>
+<summary>🐍 <code>cat .github/workflows/snake.yml</code> — activate the snake</summary>
+
+```yaml
+# .github/workflows/snake.yml
+# Drop this file into your profile repo to generate the contribution snake SVG
+# It runs daily and on every push to main
+
+name: generate animation
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+</details>
+
+<br/><br/>
 
 <!-- LINE 3: VERSION STRING TYPED — em dash removed from URL to fix rendering -->
 <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=3500&color=7FFF00&background=0D111700&center=true&vWidth=750&lines=%24+alfonce+--version;Alfonce+Micah+Yano+v27.0-lts+(Nairobi+Edition)+stable;Build%3A+%F0%9F%90%B1-powered+%7C+Arch%3A+fullstack+%7C+License%3A+MIT-cat;%F0%9F%8E%B8+country+music+playing+in+the+background+%7C+Ports%3A+open" alt="version string" />
