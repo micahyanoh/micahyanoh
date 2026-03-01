@@ -583,7 +583,7 @@ print(f"Improvement: +{delta} SUS points")
 
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-Read%20Full%20Paper-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/publication/400485528_A_Framework_for_Sustainable_Digital_Transition_in_Public_Institutions_A_Case_Study_of_Maternal_Care_Digitization_in_Kisumu_County_Kenya)
 
-> 💡 *Also on Medium →* **[@alfonce-micah](https://medium.com/@alfonce-micah)**
+> 💡 *Also on Medium →* **[@ogongoyanojnr](https://medium.com/@ogongoyanojnr)**
 
 </div>
 
@@ -597,7 +597,7 @@ print(f"Improvement: +{delta} SUS points")
 
 <br/><br/>
 
-[![Medium](https://img.shields.io/badge/Medium-@alfonce--micah-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@alfonce-micah)
+[![Medium](https://img.shields.io/badge/Medium-@ogongoyanojnr-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ogongoyanojnr)
 
 > *"I write the same way I code — opinionated, over-commented, and probably too long."*
 
@@ -679,15 +679,15 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 
 <br/>
 
-<!-- 🐍 SNAKE EATING CONTRIBUTIONS — the most satisfying thing on any GitHub profile -->
-<!-- NOTE: To activate the snake, add .github/workflows/snake.yml to this repo — see bottom of README -->
+<!-- 🐍 SNAKE — set up the workflow (see snake.yml at the bottom), then this animates live -->
+<!-- Once the Actions workflow runs once, the snake will appear below automatically -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake.svg"/>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <img alt="🐍 snake eating my contributions" src="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </picture>
 
-> *The snake is eating commits. The cat approves. This is fine.*
+> *320 commits. One snake. Zero regrets. The cat is watching.*
 
 </div>
 
@@ -736,7 +736,9 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 
 <div align="center">
 
-[![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=micahyanoh&limit=5&theme=dark&combine_all_yearly_contributions=true&bg_color=0d1117&title_color=39ff14&text_color=c9d1d9&border_color=39ff14)](https://github.com/micahyanoh)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micahyanoh&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39ff14&text_color=c9d1d9&langs_count=10" width="48%" alt="Top Languages"/>
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api?username=micahyanoh&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&ring_color=39ff14&count_private=true" width="48%" alt="GitHub Stats"/>
 
 </div>
 
@@ -839,9 +841,10 @@ exit code: 0
 
 <div align="center">
 
-<details>
-<summary><code>$ sudo cat /etc/micah/secrets.conf</code> 🔒</summary>
+<br/>
 
+<details>
+<summary><b>🔒 <code>$ sudo cat /etc/micah/secrets.conf</code></b> — click to attempt access</summary>
 <br/>
 
 ```
@@ -900,7 +903,7 @@ sudo: 1 incorrect password attempt
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's%20Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfonce-micah-yano-5042b81a7)
 [![GitHub](https://img.shields.io/badge/GitHub-micahyanoh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/micahyanoh)
-[![Medium](https://img.shields.io/badge/Medium-@alfonce--micah-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@alfonce-micah)
+[![Medium](https://img.shields.io/badge/Medium-@ogongoyanojnr-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ogongoyanojnr)
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-Published%20Research-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/publication/400485528_A_Framework_for_Sustainable_Digital_Transition_in_Public_Institutions_A_Case_Study_of_Maternal_Care_Digitization_in_Kisumu_County_Kenya)
 [![Instagram](https://img.shields.io/badge/Instagram-@stolen__pen__ke-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/stolen_pen_ke)
 
@@ -945,19 +948,25 @@ sudo: 1 incorrect password attempt
 
 <!-- SNAKE WORKFLOW SETUP NOTE -->
 <details>
-<summary>🐍 <code>cat .github/workflows/snake.yml</code> — activate the snake</summary>
+<summary>🐍 <b>How to activate the animated snake</b> — <code>cat .github/workflows/snake.yml</code></summary>
+
+<br/>
+
+**3 steps to get the snake running:**
+
+1. In your `micahyanoh` profile repo, create the file `.github/workflows/snake.yml` with the content below
+2. Go to **Settings → Actions → General** → set Workflow permissions to **"Read and write permissions"**
+3. Go to **Actions tab** → click **"generate animation"** → **"Run workflow"** — the snake SVG is generated into the `output` branch and the README snake section activates automatically
 
 ```yaml
 # .github/workflows/snake.yml
-# Drop this file into your profile repo to generate the contribution snake SVG
-# It runs daily and on every push to main
 
 name: generate animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
-  workflow_dispatch:
+    - cron: "0 */24 * * *"   # regenerates daily
+  workflow_dispatch:          # also triggerable manually
   push:
     branches:
     - main
@@ -978,7 +987,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
