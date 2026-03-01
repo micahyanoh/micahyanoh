@@ -200,30 +200,36 @@ micah@nairobi:~$ skill --benchmark --output=ascii
 
 </div>
 
-> *Stats generated live. Unlike my social life, these actually have uptime.*
+> *Stats compiled from the git log. Unlike my social life, these actually have uptime.*
 
-<!-- PROFILE SUMMARY BANNER -->
 <div align="center">
 
-[![profile-summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=micahyanoh&theme=github_dark)](https://github.com/micahyanoh)
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  micah@nairobi:~$ gh api /users/micahyanoh/stats                             │
+│──────────────────────────────────────────────────────────────────────────────│
+│                                                                              │
+│   📦  Repositories    │  21+       │  and still building                     │
+│   ⭐  Total Commits   │  320+      │  Jan 2022 → present                     │
+│   🔥  Best Streak     │  5 days    │  Jul 4–8, 2024                          │
+│   📅  Years Active    │  4+        │  on GitHub since 2022                   │
+│   🌍  Location        │  Nairobi, Kenya 🇰🇪   (EAT UTC+3)                    │
+│   🧠  Primary Lang    │  Python    │  always. non-negotiable.                │
+│   🎯  Focus Areas     │  HCI · Health IT · Fullstack · DSR                  │
+│   📄  Published       │  1 paper   │  ResearchGate · SUS +33.2pts            │
+│   ☕  Coffee/day      │  ∞         │  [CRITICAL — cannot go lower]           │
+│   💞  relationship    │  None      │  [unit not found since v1.0]            │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
 
-</div>
+<br/>
 
-<!-- MAIN STATS + STREAK SIDE BY SIDE -->
-<div align="center">
-
-<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=micahyanoh&theme=github_dark" />
-&nbsp;
-<img height="170em" src="https://streak-stats.demolab.com/?user=micahyanoh&theme=terminal&hide_border=true&background=0d1117&stroke=39ff14&ring=39ff14&fire=ff6b6b&currStreakLabel=39ff14&sideLabels=39ff14&dates=8b949e&sideNums=ffffff&currStreakNum=ffffff" />
-
-</div>
-
-<!-- 3-COLUMN LANGUAGE CARDS -->
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=micahyanoh&theme=github_dark&utcOffset=3" width="32%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=micahyanoh&theme=github_dark&langs_count=8" width="32%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=micahyanoh&theme=github_dark&langs_count=8" width="32%" />
+![Commits](https://img.shields.io/badge/Commits-320%2B-39ff14?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117)
+![Repos](https://img.shields.io/badge/Repos-21%2B-39ff14?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)
+![Years](https://img.shields.io/badge/GitHub-4%2B%20years-39ff14?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)
+![Streak](https://img.shields.io/badge/Best%20Streak-5%20days-ff6b6b?style=for-the-badge&logoColor=white&labelColor=0d1117)
+![Location](https://img.shields.io/badge/Location-Nairobi%20🇰🇪-FCC624?style=for-the-badge&labelColor=0d1117)
 
 </div>
 
@@ -670,12 +676,27 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 
 > *320 commits and counting. The grind is real. The coffee is realer.*
 
-[![Alfonce's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=micahyanoh&bg_color=0d1117&color=39ff14&line=39ff14&point=ffffff&area_color=0a3d0a&area=true&hide_border=true&custom_title=commit%20history%20%7C%20micahyanoh)](https://github.com/micahyanoh)
+```
+micah@nairobi:~$ git log --oneline --graph --since="3 years ago" | head -20
 
-<br/>
-
-<!-- ISOMETRIC COMMIT CALENDAR — always renders, no setup needed -->
-[![isometric](https://github-readme-activity-graph.vercel.app/graph?username=micahyanoh&bg_color=0d1117&color=39ff14&line=00ff41&point=39ff14&area=true&hide_border=true&radius=8&custom_title=activity+radar+%7C+micahyanoh)](https://github.com/micahyanoh)
+* wip: health system refactor — caffeine lvl: critical
+* fix: usability issues flagged in SUS audit
+* feat: offline-first patient tracking module (flutter)
+* docs: update PPT framework writeup for research
+* feat: FHIR integration for MCH record digitization
+* fix: why is this broken. it was fine yesterday.
+* style: figma to flutter — pixel perfect or nothing
+* feat: add gdg kisii media assets pipeline
+* fix: merge conflict resolved. coffee consumed. moved on.
+* feat: camera module — natural light detection logic
+* docs: medium draft — HCI in rural health systems
+* refactor: clean up the mess from last night's sprint
+* feat: country_music.service — daemon implementation
+* fix: cats walked on keyboard — reverted unintended changes
+* init: micahyanoh — v1.0 — hello world. coffee ready. let's go.
+|
+└── 320+ commits · 4 years · still going
+```
 
 <br/>
 
@@ -717,13 +738,20 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 
 <div align="center">
 
-<!-- METRICS — shows real contribution data including streaks, languages, achievements -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=micahyanoh&theme=github_dark" width="100%"/>
-
-<br/>
-
-<!-- TROPHIES — darkhub theme, auto-column, filter C rank so only meaningful ones show -->
-<img src="https://github-profile-trophy.vercel.app/?username=micahyanoh&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&column=-1&rank=SSS,SS,S,AAA,AA,A,B" width="100%" alt="trophies"/>
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  ACHIEVEMENT LOG — micahyanoh                                                          │
+├──────────────┬──────────────────────────────────────────────────────────────────────── │
+│  🥇 First PR  │  Pushed. Merged. Celebrated alone with coffee.                          │
+│  🔥 Streak    │  5 days straight  (Jul 4–8, 2024) — the cat was proud                  │
+│  📦 Repos     │  21+ contributed — ranging from health systems to design work           │
+│  📄 Research  │  1 published paper  · SUS score lifted from 46.2 → 79.4 (+33.2pts)     │
+│  🌍 Impact    │  Kisumu County MCH system · real nurses · real clinics · real mothers   │
+│  🎓 GDG       │  Google Developer Groups — Kisii chapter · media & design lead          │
+│  📷 Frames    │  Photographer · natural light only · companion: none · always loaded    │
+│  🐱 Runtime   │  PID 1 · cats · uptime: 27 years · unkillable                          │
+└──────────────┴──────────────────────────────────────────────────────────────────────── │
+```
 
 <br/><br/>
 
@@ -756,9 +784,27 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micahyanoh&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39ff14&text_color=c9d1d9&langs_count=10" width="48%" alt="Top Languages"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api?username=micahyanoh&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&ring_color=39ff14&count_private=true" width="48%" alt="GitHub Stats"/>
+```
+micah@nairobi:~$ cat /proc/micahyanoh/languages
+
+  LANGUAGE BREAKDOWN — based on active repos
+  ──────────────────────────────────────────────────────
+  Python        ██████████████████████░░  ~45%   primary
+  Dart          █████████████░░░░░░░░░░░  ~26%   with coffee
+  JavaScript    ████████░░░░░░░░░░░░░░░░  ~15%   when needed
+  C# / .NET     █████░░░░░░░░░░░░░░░░░░░  ~10%   enterprise mode
+  Bash / Shell  ██░░░░░░░░░░░░░░░░░░░░░░   ~4%   glue for everything
+  ──────────────────────────────────────────────────────
+  $ exit 0
+```
+
+<br/>
+
+![Python](https://img.shields.io/badge/Python-45%25-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117)
+![Dart](https://img.shields.io/badge/Dart-26%25-0175C2?style=for-the-badge&logo=dart&logoColor=white&labelColor=0d1117)
+![JavaScript](https://img.shields.io/badge/JavaScript-15%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=0d1117)
+![CSharp](https://img.shields.io/badge/C%23-.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=0d1117)
+![Bash](https://img.shields.io/badge/Bash-Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=0d1117)
 
 </div>
 
@@ -768,7 +814,17 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 
 <div align="center">
 
-![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
+```
+ _______________________________________________________________
+(  "First, solve the problem. Then, write the code."           )
+(                                          — John Johnson       )
+ ───────────────────────────────────────────────────────────────
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
 
 </div>
 
@@ -778,7 +834,20 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 
 <div align="center">
 
-![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder&theme=dark&bgColor=%230d1117&textColor=%2339ff14&aColor=%2339ff14&borderColor=%2339ff14)
+```bash
+$ cat /dev/humor | head -1
+
+  Q: Why do programmers prefer dark mode?
+
+  A: Because light attracts bugs.
+
+  exit code: 0  # unlike the bug you're about to introduce
+```
+
+> *Why do Java developers wear glasses?*
+> *Because they don't C#.*
+>
+> *(The cat has heard this joke 47 times. She is not laughing. She is judging.)*
 
 </div>
 
