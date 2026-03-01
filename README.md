@@ -9,7 +9,7 @@
 
 <!-- TYPING ANIMATION -->
 <a href="https://github.com/micahyanoh">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&pause=800&color=39FF14&background=0D111700&center=true&vWidth=750&lines=root%40micah%3A~%23+./boot_sequence.sh;%5B++OK++%5D+Loading+caffeine+modules...;%5B++OK++%5D+Mounting+%2Fdev%2Fpasta...;%5B++OK++%5D+cat+purring+at+3%25+CPU...;%5B+WARN+%5D+relationship.service+not+found;%5B++OK++%5D+Alfonce+Micah+Yano+is+now+online." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&pause=800&color=39FF14&background=0D111700&center=true&vWidth=750&lines=root%40micah%3A~%23+./boot_sequence.sh;%5B++OK++%5D+Loading+caffeine+modules...;%5B++OK++%5D+Mounting+%2Fdev%2Fpasta...;%5B++OK++%5D+cat+purring+at+3%25+CPU...;%5B++OK++%5D+country+music+playlist+loaded...;%5B+WARN+%5D+relationship.service+not+found;%5B++OK++%5D+Alfonce+Micah+Yano+is+now+online." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -125,6 +125,7 @@ camera            1     soul  /mnt/moments
 trail_boots       2     gear  /mnt/mountain
 good_book         ∞     media /mnt/mind
 documentary       4K    media /mnt/reality
+country_music     ∞G    audio /mnt/soul    <- always mounted. non-negotiable.
 relationship      0G    -     [NOT MOUNTED — unit not found]
 ```
 
@@ -404,6 +405,7 @@ NOTE: I watch documentaries the same way I write code —
 | 🎞️ Documentaries | Raw. Real. Uncomfortable. | I prefer unfiltered output |
 | 🗻 Trails | Silent. Honest. Humbling. | Nature has no Stack Overflow |
 | 📷 Photography | Still. Composed. Permanent. | `git commit`, but analog |
+| 🎸 Country Music | Honest. Loud. Unapologetic. | Three chords and the truth |
 
 </div>
 
@@ -463,6 +465,12 @@ rule_3 = "If you appreciate a good documentary and don't mind
 
 [debugging]
 rule_1 = "Have you tried turning it off and eating pasta?"
+
+[country_music]
+rule_1 = "The only genre where heartbreak, trucks, and God
+           share the same three chords. I respect that."
+rule_2 = "Country music is just git blame for your feelings."
+rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 ```
 
 </div>
@@ -636,7 +644,7 @@ Port 69   : CLOSED <- relationship.service still not installed.
 <br/>
 
 <!-- LINE 2: SYSTEMD-STYLE SHUTDOWN LOG — scrolling through services -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=650&color=4EAA25&background=0D111700&center=true&vWidth=800&lines=%5B++OK++%5D+Stopping+humans.service+...+skipped+%28was+never+started%29;%5B++OK++%5D+Unmounting+%2Fvar%2Fwork+...+done;%5B++OK++%5D+Saving+%2Fmnt%2Fmoments+%28photography+backlog%29+...+done;%5B++OK++%5D+Packing+trail_boots+for+tomorrow+...+done;%5B++OK++%5D+Queuing+next+documentary+...+done;%5B++OK++%5D+Cats+fed.+Coffee+prepped.+Pasta+on+standby.;%5B+WARN+%5D+relationship.service%3A+still+not+found.+still+fine.;%5B++OK++%5D+Writing+%2Fvar%2Flog%2Flife.log+...+done;System+halted." alt="shutdown log" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=650&color=4EAA25&background=0D111700&center=true&vWidth=800&lines=%5B++OK++%5D+Stopping+humans.service+...+skipped+(was+never+started);%5B++OK++%5D+Unmounting+%2Fvar%2Fwork+...+done;%5B++OK++%5D+Saving+%2Fmnt%2Fmoments+(photography+backlog)+...+done;%5B++OK++%5D+Packing+trail_boots+for+tomorrow+...+done;%5B++OK++%5D+Queuing+next+documentary+...+done;%5B++OK++%5D+Loading+country+music+playlist+...+done+%F0%9F%8E%B8;%5B++OK++%5D+Cats+fed.+Coffee+prepped.+Pasta+on+standby.;%5B+WARN+%5D+relationship.service%3A+still+not+found.+still+fine.;%5B++OK++%5D+Writing+%2Fvar%2Flog%2Flife.log+...+done;System+halted." alt="shutdown log" />
 
 <br/><br/>
 
@@ -646,8 +654,8 @@ Port 69   : CLOSED <- relationship.service still not installed.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-<!-- LINE 3: VERSION STRING TYPED -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=3500&color=7FFF00&background=0D111700&center=true&vWidth=750&lines=%24+alfonce+--version;Alfonce+Micah+Yano+v27.0-lts+%28Nairobi+Edition%29+—+stable;Build%3A+%F0%9F%90%B1-powered+%7C+Arch%3A+fullstack+%7C+License%3A+MIT-cat+%7C+Ports%3A+open" alt="version string" />
+<!-- LINE 3: VERSION STRING TYPED — em dash removed from URL to fix rendering -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=3500&color=7FFF00&background=0D111700&center=true&vWidth=750&lines=%24+alfonce+--version;Alfonce+Micah+Yano+v27.0-lts+(Nairobi+Edition)+stable;Build%3A+%F0%9F%90%B1-powered+%7C+Arch%3A+fullstack+%7C+License%3A+MIT-cat;%F0%9F%8E%B8+country+music+playing+in+the+background+%7C+Ports%3A+open" alt="version string" />
 
 <br/><br/>
 
@@ -659,6 +667,7 @@ Port 69   : CLOSED <- relationship.service still not installed.
 ![Ports](https://img.shields.io/badge/Ports-open-39ff14?style=flat-square&labelColor=0d1117)
 ![Camera](https://img.shields.io/badge/Camera-always%20loaded-31A8FF?style=flat-square&labelColor=0d1117)
 ![Trail](https://img.shields.io/badge/Next%20hike-solo-FCC624?style=flat-square&labelColor=0d1117)
+![Music](https://img.shields.io/badge/Now%20Playing-Country%20Music%20🎸-B8860B?style=flat-square&labelColor=0d1117)
 
 <br/>
 
