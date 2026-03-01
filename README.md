@@ -107,6 +107,8 @@ trail_boots       2     gear  /mnt/mountain
 good_book         ∞     media /mnt/mind
 documentary       4K    media /mnt/reality
 country_music     ∞G    audio /mnt/soul    <- always mounted. non-negotiable.
+ppt_research      1     paper /mnt/thesis  <- People. Process. Technology. Done.
+medium_drafts     ∞     text  /mnt/opinions <- opinions have no size limit
 relationship      0G    -     [NOT MOUNTED — unit not found]
 ```
 
@@ -436,7 +438,9 @@ NOTE: I watch documentaries the same way I write code —
 | 📱 Mobile Health Apps | Flutter · Dart | 🟡 `BUILDING` | 1002 |
 | 🎨 GDG Kisii Media & Design | Photoshop · Motion | 🟢 `RUNNING` | 1003 |
 | ☁️ Fullstack Web Projects | Node.js · JS · REST APIs | 🟢 `RUNNING` | 1004 |
-| 📷 Photography Portfolio | Light · Shadow · Patience | 🟢 `ALWAYS SHOOTING` | 1005 |
+| 🔬 PPT Framework — MCH Digitization | Flutter · FHIR · DSR | 🟢 `VALIDATED` | 1005 |
+| ✍️ Medium — Tech & HCI Writing | Opinions · Coffee · Markdown | 🟢 `PUBLISHING` | 1006 |
+| 📷 Photography Portfolio | Light · Shadow · Patience | 🟢 `ALWAYS SHOOTING` | 1007 |
 | 🐱 Cat Supervision Protocol | Pure observation | 🟢 `ALWAYS RUNNING` | 1 |
 | 💞 relationship.service | — | 🔴 `UNIT NOT FOUND` | — |
 
@@ -444,7 +448,139 @@ NOTE: I watch documentaries the same way I write code —
 
 ---
 
-## 🎯 `cat /etc/philosophy.conf`
+## 🔬 `cat /mnt/research/ppt_framework.md`
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=800&color=39FF14&background=0D111700&center=true&vWidth=780&lines=micah%40nairobi%3A~%24+cat+research%2Fppt_framework.md;Loading+framework...+People+%E2%86%92+Process+%E2%86%92+Technology;Evaluating+KenyaHMIS+maternal+module...+%5B+SUS+46.2+%5D+POOR;Prototype+validation+complete...+%5B+SUS+79.4+%5D+GOOD;Framework+accepted.+Adoption+target%3A+75%25+%2B" alt="research typing" />
+
+</div>
+
+<br/>
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  RESEARCH/001 — Prototype-Based Framework for Digitizing MCH Records        │
+│  Institution : Kisumu County Public Health Facilities                       │
+│  Methodology : Design Science Research + Mixed Methods                      │
+│  Supervisor  : Dr. Irene Moseti Morara · Mr. Allan Muigai                   │
+│  Status      : 🟢 COMPLETE — Framework Validated                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+### The Framework — `People · Process · Technology`
+
+> *"Three words. One broken system. One working prototype."*
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+**👥 People**<br/>
+`Healthcare Providers`<br/>
+`CHVs · Mothers`<br/><br/>
+<sub>The humans the system forgot to design for.</sub>
+
+</td>
+<td align="center" width="33%">
+
+**⚙️ Process**<br/>
+`Patient-Level Tracking`<br/>
+`Offline-First Workflows`<br/><br/>
+<sub>What the system does when people actually use it.</sub>
+
+</td>
+<td align="center" width="33%">
+
+**💻 Technology**<br/>
+`Flutter · FHIR · Android`<br/>
+`Cloud + Offline Storage`<br/><br/>
+<sub>Tools that work in places with bad internet. Novel concept.</sub>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+```python
+# KenyaHMIS baseline audit results
+# (before someone who actually cares touched it)
+
+baseline = {
+    "SUS_score"          : 46.2,   # Poor. Very poor. "Manual booklet is faster" poor.
+    "UEQ_attractiveness" : -0.8,   # Unappealing. The system tried. It failed.
+    "UEQ_efficiency"     : -1.1,   # Slower than a nurse with a pen.
+    "TAM_usefulness"     : 2.4,    # Out of 5. That's 48%. Generous.
+    "TAM_adoptability"   : 2.3,    # Healthcare workers: "No thanks."
+    "offline_support"    : False,  # Rural Kenya. Bad idea.
+    "patient_tracking"   : False,  # Just aggregate data. Mothers: invisible.
+    "caregiver_access"   : False,  # Mothers can't see their own records. Interesting.
+}
+
+# Prototype validation — after the framework was applied
+prototype = {
+    "SUS_score"          : 79.4,   # Good usability. +33 points. Coffee helped.
+    "UEQ_efficiency"     : "+ve",  # People could actually use it.
+    "TAM_all_constructs" : "> 4.0",# Strong acceptance. Above average humans.
+    "offline_support"    : True,   # Works in a mud-walled clinic at 6am. Yes.
+    "patient_tracking"   : True,   # Mothers: now visible. Radical.
+    "adoption_target"    : "75%+", # Framework eval metric. Watch this space.
+}
+
+delta = prototype["SUS_score"] - baseline["SUS_score"]
+print(f"Improvement: +{delta} SUS points")
+# >> Improvement: +33.2 SUS points
+# >> Conclusion: Design Science Research works.
+#               Also: user-centered design works.
+#               Also: listening to nurses works.
+```
+
+<br/>
+
+**Outcomes the framework actually targets:**
+
+| Metric | Baseline | Target | What it means |
+|--------|----------|--------|----------------|
+| SUS Score | 46.2 | ≥ 70 | *From "painful" to "people actually use it"* |
+| TAM Constructs | ~2.3 | > 3.5 | *From "no thanks" to "fine, I'll try it"* |
+| UEQ Dimensions | All negative | All positive | *From "ugly and slow" to "not embarrassing"* |
+| Adoption Rate | Low | ≥ 75% | *The whole point* |
+
+> 💡 *Read the full write-up on Medium →* **[@alfonce-micah](https://medium.com/@alfonce-micah)**
+
+</div>
+
+---
+
+## ✍️ `tail -f /var/log/medium.log` — Writing
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=1200&color=39FF14&background=0D111700&center=true&vWidth=680&lines=micah%40nairobi%3A~%24+tail+-f+%2Fvar%2Flog%2Fmedium.log;%5B++OK++%5D+People.+Process.+Technology.+Published.;%5B++OK++%5D+HCI+opinion+pieces+loading...;%5B++OK++%5D+Health+tech+takes+queued...;%5B+INFO+%5D+coffee+consumed+before+every+article.+always." alt="medium log" />
+
+<br/><br/>
+
+[![Medium](https://img.shields.io/badge/Medium-@alfonce--micah-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@alfonce-micah)
+
+> *"I write the same way I code — opinionated, over-commented, and probably too long."*
+
+```bash
+$ grep -r "published" /var/log/medium.log
+
+[INFO]  Topic: People, Process & Technology in Digital Health
+[INFO]  Topic: Why KenyaHMIS needs more than a patch
+[INFO]  Topic: HCI lessons from building for rural Kenya
+[INFO]  Topic: Design Science Research — the only methodology that admits
+               it doesn't know the answer upfront
+[QUEUE] More in /mnt/mind/drafts/ — ETA: when the coffee hits right
+```
+
+</div>
+
+---
 
 <div align="center">
 
@@ -615,12 +751,13 @@ exit code: 0
 <div align="center">
 
 <!-- ANIMATED CONNECTION STATUS -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=900&color=39FF14&background=0D111700&center=true&vWidth=680&lines=connecting+to+alfonce.micah+%28nairobi.ke%29...;%5B++OK++%5D+LinkedIn+handshake+complete;%5B++OK++%5D+GitHub+repos+mounted+%28read+only%3F+nah%2C+star+them%29;%5B++OK++%5D+Instagram+%40stolen_pen_ke+online;%5B+NOTE+%5D+DMs+open.+Please+don%27t+be+weird." alt="connection status" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=900&color=39FF14&background=0D111700&center=true&vWidth=680&lines=connecting+to+alfonce.micah+%28nairobi.ke%29...;%5B++OK++%5D+LinkedIn+handshake+complete;%5B++OK++%5D+GitHub+repos+mounted+(read+only%3F+nah%2C+star+them);%5B++OK++%5D+Medium+articles+loaded...+opinions+included;%5B++OK++%5D+Instagram+%40stolen_pen_ke+online;%5B+NOTE+%5D+DMs+open.+Please+don%27t+be+weird." alt="connection status" />
 
 <br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's%20Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfonce-micah-yano-5042b81a7)
 [![GitHub](https://img.shields.io/badge/GitHub-micahyanoh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/micahyanoh)
+[![Medium](https://img.shields.io/badge/Medium-@alfonce--micah-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@alfonce-micah)
 [![Instagram](https://img.shields.io/badge/Instagram-@stolen__pen__ke-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/stolen_pen_ke)
 
 <br/>
