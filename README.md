@@ -679,12 +679,19 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 
 <br/>
 
-<!-- 🐍 SNAKE — set up the workflow (see snake.yml at the bottom), then this animates live -->
-<!-- Once the Actions workflow runs once, the snake will appear below automatically -->
+<!-- ================================================================
+     🐍 SNAKE — requires one-time GitHub Actions setup (see below)
+     Once the workflow runs, the <picture> block below becomes active
+     ================================================================ -->
+
+<!-- STEP 1: Create .github/workflows/snake.yml in this repo (see the collapsible at the bottom of this README) -->
+<!-- STEP 2: Go to Settings → Actions → General → set "Read and write permissions" → Save -->
+<!-- STEP 3: Go to Actions tab → "generate animation" → "Run workflow" — done. Updates daily after that. -->
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake.svg"/>
-  <img alt="🐍 snake eating my contributions" src="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <img alt="🐍 snake eating contributions — run the workflow to activate" src="https://raw.githubusercontent.com/micahyanoh/micahyanoh/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </picture>
 
 > *320 commits. One snake. Zero regrets. The cat is watching.*
@@ -702,8 +709,8 @@ rule_3 = "Always mounted at /mnt/soul. Cannot be unmounted."
 
 <br/>
 
-<!-- TROPHIES -->
-<img src="https://github-profile-trophy.vercel.app/?username=micahyanoh&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7" width="100%" alt="trophies"/>
+<!-- TROPHIES — darkhub theme, auto-column, filter C rank so only meaningful ones show -->
+<img src="https://github-profile-trophy.vercel.app/?username=micahyanoh&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&column=-1&rank=SSS,SS,S,AAA,AA,A,B" width="100%" alt="trophies"/>
 
 <br/><br/>
 
@@ -948,35 +955,31 @@ sudo: 1 incorrect password attempt
 
 <!-- SNAKE WORKFLOW SETUP NOTE -->
 <details>
-<summary>🐍 <b>How to activate the animated snake</b> — <code>cat .github/workflows/snake.yml</code></summary>
+<summary>🐍 <b>How to activate the animated snake — 3 steps</b></summary>
 
 <br/>
 
-**3 steps to get the snake running:**
+**Step 1** — Create this file in your `micahyanoh` repo: `.github/workflows/snake.yml`
 
-1. In your `micahyanoh` profile repo, create the file `.github/workflows/snake.yml` with the content below
-2. Go to **Settings → Actions → General** → set Workflow permissions to **"Read and write permissions"**
-3. Go to **Actions tab** → click **"generate animation"** → **"Run workflow"** — the snake SVG is generated into the `output` branch and the README snake section activates automatically
+**Step 2** — Go to repo **Settings → Actions → General → Workflow permissions** → select **"Read and write permissions"** → Save
+
+**Step 3** — Go to **Actions tab** → click **"generate animation"** → **"Run workflow"** → **"Run workflow"** (green button). The snake SVG is pushed to an `output` branch and the README snake appears instantly. It auto-regenerates every 12 hours after that.
 
 ```yaml
-# .github/workflows/snake.yml
-
 name: generate animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *"   # regenerates daily
-  workflow_dispatch:          # also triggerable manually
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: generate github-contribution-grid-snake.svg
@@ -986,6 +989,8 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
