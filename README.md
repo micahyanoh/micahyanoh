@@ -4,8 +4,136 @@
 
 <div align="center">
 
-<!-- ANIMATED HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0d1117,50:0a3d0a,100:0d1117&height=220&section=header&text=Alfonce%20Micah%20Yano&fontSize=52&fontColor=39ff14&animation=blinking&fontAlignY=45&desc=%24%20whoami%20%7C%20Software%20Developer%20%7C%20HCI%20Researcher%20%7C%20Cat%20Overlord&descAlignY=65&descColor=7fff00&descSize=15"/>
+<!-- ANIMATED HEADER — GLITCH NAME via SVG -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0a3d0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <!-- Glitch clip paths -->
+    <clipPath id="clip1">
+      <rect x="0" y="0" width="900" height="220"/>
+    </clipPath>
+    <clipPath id="clip2">
+      <rect x="0" y="60" width="900" height="40"/>
+    </clipPath>
+    <clipPath id="clip3">
+      <rect x="0" y="110" width="900" height="30"/>
+    </clipPath>
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="900" height="2" fill="rgba(0,0,0,0.15)"/>
+    </pattern>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Subtle flicker filter -->
+    <filter id="flicker">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="1" result="noise">
+        <animate attributeName="baseFrequency" values="0.9;0.95;0.9" dur="0.15s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="G">
+        <animate attributeName="scale" values="0;0;0;3;0;0;0;0;2;0;0" dur="5s" repeatCount="indefinite"/>
+      </feDisplacementMap>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bgGrad)" rx="12"/>
+  <rect width="900" height="220" fill="url(#scanlines)" rx="12" opacity="0.4"/>
+
+  <!-- Matrix rain columns (decorative green chars falling) -->
+  <g font-family="'Share Tech Mono', monospace" font-size="11" fill="#39ff14" opacity="0.18">
+    <text x="30" y="10">
+      <tspan dy="14">0</tspan><tspan x="30" dy="14">1</tspan><tspan x="30" dy="14">A</tspan><tspan x="30" dy="14">F</tspan>
+      <animate attributeName="opacity" values="0.18;0.05;0.18" dur="2.1s" repeatCount="indefinite"/>
+    </text>
+    <text x="860" y="10">
+      <tspan dy="14">1</tspan><tspan x="860" dy="14">0</tspan><tspan x="860" dy="14">N</tspan><tspan x="860" dy="14">E</tspan>
+      <animate attributeName="opacity" values="0.05;0.18;0.05" dur="1.7s" repeatCount="indefinite"/>
+    </text>
+    <text x="60" y="200">
+      <tspan>M I C A H</tspan>
+      <animate attributeName="opacity" values="0.18;0.08;0.18" dur="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="770" y="200">
+      <tspan>Y A N O</tspan>
+      <animate attributeName="opacity" values="0.08;0.18;0.08" dur="2.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- GLITCH LAYERS — red/cyan offset clones of name -->
+  <g clip-path="url(#clip2)" filter="url(#flicker)">
+    <!-- Red ghost -->
+    <text x="451" y="112" font-family="'Share Tech Mono', monospace" font-size="58" font-weight="bold"
+          fill="#ff003c" opacity="0.55" text-anchor="middle" letter-spacing="2">
+      Alfonce Micah Yano
+      <animate attributeName="x" values="451;447;453;451;448;451" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0;0.55;0.3;0;0.55" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <!-- Cyan ghost -->
+    <text x="452" y="112" font-family="'Share Tech Mono', monospace" font-size="58" font-weight="bold"
+          fill="#00ffff" opacity="0.45" text-anchor="middle" letter-spacing="2">
+      Alfonce Micah Yano
+      <animate attributeName="x" values="452;456;450;452;455;452" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0;0.45;0;0.3;0.45" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- MAIN NAME — glowing green, primary layer -->
+  <text x="450" y="112" font-family="'Share Tech Mono', monospace" font-size="58" font-weight="bold"
+        fill="#39ff14" text-anchor="middle" letter-spacing="2" filter="url(#glow)" clip-path="url(#clip1)">
+    Alfonce Micah Yano
+    <!-- Blink/flicker on the whole name occasionally -->
+    <animate attributeName="opacity" values="1;1;1;1;0.85;1;1;1;0.6;1;1" dur="7s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Animated underline that sweeps across -->
+  <rect x="160" y="122" width="0" height="2" fill="#39ff14" rx="1" opacity="0.8">
+    <animate attributeName="width" values="0;580;580;0" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="160;160;740;740" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.8;0.8;0" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Subtitle / descriptor line -->
+  <text x="450" y="155" font-family="'Share Tech Mono', monospace" font-size="14"
+        fill="#7fff00" text-anchor="middle" letter-spacing="1" opacity="0.9">
+    $ whoami | Software Developer | HCI Researcher | Cat Overlord
+    <animate attributeName="opacity" values="0.9;0.6;0.9" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Blinking cursor at end of name -->
+  <rect x="736" y="88" width="3" height="34" fill="#39ff14" rx="1">
+    <animate attributeName="opacity" values="1;1;0;0;1;1;0;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner decorations -->
+  <g stroke="#39ff14" stroke-width="1.5" fill="none" opacity="0.5">
+    <polyline points="10,10 10,30 30,30"/>
+    <polyline points="890,10 890,30 870,30"/>
+    <polyline points="10,210 10,190 30,190"/>
+    <polyline points="890,210 890,190 870,190"/>
+  </g>
+
+  <!-- Version tag bottom left -->
+  <text x="16" y="214" font-family="'Share Tech Mono', monospace" font-size="10" fill="#39ff14" opacity="0.5">
+    v27.0-lts [NAIROBI]
+  </text>
+
+  <!-- Online status bottom right -->
+  <circle cx="870" cy="210" r="4" fill="#39ff14">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="878" y="214" font-family="'Share Tech Mono', monospace" font-size="10" fill="#39ff14" opacity="0.7">ONLINE</text>
+</svg>
 
 <!-- TYPING ANIMATION -->
 <a href="https://github.com/micahyanoh">
@@ -18,6 +146,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=micahyanoh&color=39ff14&style=flat-square&label=Profile+Views)
 [![GitHub followers](https://img.shields.io/github/followers/micahyanoh?style=flat-square&color=39ff14&labelColor=0d1117&label=Followers)](https://github.com/micahyanoh)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alfonce%20Micah-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfonce-micah-yano-5042b81a7)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Published-00CCBB?style=flat-square&logo=researchgate&logoColor=white)](https://www.researchgate.net/publication/400485528_A_Framework_for_Sustainable_Digital_Transition_in_Public_Institutions_A_Case_Study_of_Maternal_Care_Digitization_in_Kisumu_County_Kenya)
 ![OS](https://img.shields.io/badge/OS-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Status](https://img.shields.io/badge/relationship.service-404%20Not%20Found-ff4444?style=flat-square)
@@ -465,6 +594,7 @@ NOTE: I watch documentaries the same way I write code —
 │  Methodology : Design Science Research + Mixed Methods                      │
 │  Supervisor  : Dr. Irene Moseti Morara · Mr. Allan Muigai                   │
 │  Status      : 🟢 COMPLETE — Framework Validated                            │
+│  Published   : ResearchGate · DOI available                                 │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -549,7 +679,13 @@ print(f"Improvement: +{delta} SUS points")
 | UEQ Dimensions | All negative | All positive | *From "ugly and slow" to "not embarrassing"* |
 | Adoption Rate | Low | ≥ 75% | *The whole point* |
 
-> 💡 *Read the full write-up on Medium →* **[@alfonce-micah](https://medium.com/@alfonce-micah)**
+<br/>
+
+> 📄 *Read the full paper on ResearchGate →* **[A Framework for Sustainable Digital Transition in Public Institutions](https://www.researchgate.net/publication/400485528_A_Framework_for_Sustainable_Digital_Transition_in_Public_Institutions_A_Case_Study_of_Maternal_Care_Digitization_in_Kisumu_County_Kenya)**
+
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Read%20Full%20Paper-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/publication/400485528_A_Framework_for_Sustainable_Digital_Transition_in_Public_Institutions_A_Case_Study_of_Maternal_Care_Digitization_in_Kisumu_County_Kenya)
+
+> 💡 *Also on Medium →* **[@alfonce-micah](https://medium.com/@alfonce-micah)**
 
 </div>
 
@@ -751,13 +887,14 @@ exit code: 0
 <div align="center">
 
 <!-- ANIMATED CONNECTION STATUS -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=900&color=39FF14&background=0D111700&center=true&vWidth=680&lines=connecting+to+alfonce.micah+%28nairobi.ke%29...;%5B++OK++%5D+LinkedIn+handshake+complete;%5B++OK++%5D+GitHub+repos+mounted+(read+only%3F+nah%2C+star+them);%5B++OK++%5D+Medium+articles+loaded...+opinions+included;%5B++OK++%5D+Instagram+%40stolen_pen_ke+online;%5B+NOTE+%5D+DMs+open.+Please+don%27t+be+weird." alt="connection status" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=900&color=39FF14&background=0D111700&center=true&vWidth=680&lines=connecting+to+alfonce.micah+%28nairobi.ke%29...;%5B++OK++%5D+LinkedIn+handshake+complete;%5B++OK++%5D+GitHub+repos+mounted+(read+only%3F+nah%2C+star+them);%5B++OK++%5D+Medium+articles+loaded...+opinions+included;%5B++OK++%5D+ResearchGate+paper+indexed...+peer+reviewed;%5B++OK++%5D+Instagram+%40stolen_pen_ke+online;%5B+NOTE+%5D+DMs+open.+Please+don%27t+be+weird." alt="connection status" />
 
 <br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's%20Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfonce-micah-yano-5042b81a7)
 [![GitHub](https://img.shields.io/badge/GitHub-micahyanoh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/micahyanoh)
 [![Medium](https://img.shields.io/badge/Medium-@alfonce--micah-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@alfonce-micah)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Published%20Research-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/publication/400485528_A_Framework_for_Sustainable_Digital_Transition_in_Public_Institutions_A_Case_Study_of_Maternal_Care_Digitization_in_Kisumu_County_Kenya)
 [![Instagram](https://img.shields.io/badge/Instagram-@stolen__pen__ke-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/stolen_pen_ke)
 
 <br/>
@@ -789,7 +926,7 @@ exit code: 0
 <br/>
 
 <!-- LINE 2: SYSTEMD-STYLE SHUTDOWN LOG — scrolling through services -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=650&color=4EAA25&background=0D111700&center=true&vWidth=800&lines=%5B++OK++%5D+Stopping+humans.service+...+skipped+(was+never+started);%5B++OK++%5D+Unmounting+%2Fvar%2Fwork+...+done;%5B++OK++%5D+Saving+%2Fmnt%2Fmoments+(photography+backlog)+...+done;%5B++OK++%5D+Packing+trail_boots+for+tomorrow+...+done;%5B++OK++%5D+Queuing+next+documentary+...+done;%5B++OK++%5D+Loading+country+music+playlist+...+done+%F0%9F%8E%B8;%5B++OK++%5D+Cats+fed.+Coffee+prepped.+Pasta+on+standby.;%5B+WARN+%5D+relationship.service%3A+still+not+found.+still+fine.;%5B++OK++%5D+Writing+%2Fvar%2Flog%2Flife.log+...+done;System+halted." alt="shutdown log" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=650&color=4EAA25&background=0D111700&center=true&vWidth=800&lines=%5B++OK++%5D+Stopping+humans.service+...+skipped+(was+never+started);%5B++OK++%5D+Unmounting+%2Fvar%2Fwork+...+done;%5B++OK++%5D+Saving+%2Fmnt%2Fmoments+(photography+backlog)+...+done;%5B++OK++%5D+Packing+trail_boots+for+tomorrow+...+done;%5B++OK++%5D+Queuing+next+documentary+...+done;%5B++OK++%5D+Loading+country+music+playlist+...+done+%F0%9F%8E%B8;%5B++OK++%5D+Cats+fed.+Coffee+prepped.+Pasta+on+standby.;%5B++OK++%5D+ResearchGate+paper+indexed.+Peer+review%3A+passed.;%5B+WARN+%5D+relationship.service%3A+still+not+found.+still+fine.;%5B++OK++%5D+Writing+%2Fvar%2Flog%2Flife.log+...+done;System+halted." alt="shutdown log" />
 
 <br/><br/>
 
@@ -813,6 +950,7 @@ exit code: 0
 ![Camera](https://img.shields.io/badge/Camera-always%20loaded-31A8FF?style=flat-square&labelColor=0d1117)
 ![Trail](https://img.shields.io/badge/Next%20hike-solo-FCC624?style=flat-square&labelColor=0d1117)
 ![Music](https://img.shields.io/badge/Now%20Playing-Country%20Music%20🎸-B8860B?style=flat-square&labelColor=0d1117)
+[![ResearchGate](https://img.shields.io/badge/Research-Published-00CCBB?style=flat-square&logo=researchgate&logoColor=white&labelColor=0d1117)](https://www.researchgate.net/publication/400485528_A_Framework_for_Sustainable_Digital_Transition_in_Public_Institutions_A_Case_Study_of_Maternal_Care_Digitization_in_Kisumu_County_Kenya)
 
 <br/>
 
